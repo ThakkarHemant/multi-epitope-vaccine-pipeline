@@ -1,0 +1,205 @@
+{
+  "job_id": "3088bf53-8c89-474b-8a02-f4135bad164e",
+  "uniprot_id": "P56856",
+  "status": "completed",
+  "created_at": "2026-03-16T09:25:35.128032",
+  "completed_at": "2026-03-16T09:27:01.831596",
+  "stages": {
+    "Step 01 - Sequence Retrieval": {
+      "result": {
+        "uniprot_id": "P56856",
+        "isoform": false,
+        "sequence": "MSTTTCQVVAFLLSILGLAGCIAATGMDMWSTQDLYDNPVTSVFQYEGLWRSCVRQSSGFTECRPYFTILGLPAMLQAVRALMIVGIVLGAIGLLVSIFALKCIRIGSMEDSAKANMTLTSGIMFIVSGLCAIAGVSVFANMLVTNFWMSTANMYTGMGGMVQTVQTRYTFGAALFVGWVAGGLTLIGGVMMCIACRGLAPEETNYKAVSYHASGHSVAYKPGGFKASTGFGSNTKNKKIYDGGARTEDEVQSYPSKHDYV",
+        "length": 261,
+        "protein_name": "Claudin-18",
+        "organism": "Homo sapiens"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 02 - Antigenicity Screening": {
+      "result": {
+        "antigenicity_score": 0.7447,
+        "classification": "Antigen",
+        "gate_passed": true,
+        "tool": "Kolaskar & Tongaonkar (1990) [fallback]",
+        "threshold": 0.4
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 03 - Physicochemical Analysis": {
+      "result": {
+        "molecular_weight": 27856.19,
+        "theoretical_pi": 8.39,
+        "instability_index": 35.56,
+        "aliphatic_index": 87.82,
+        "gravy": 0.422
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 04 - Epitope Prediction": {
+      "result": {
+        "bcell_epitopes": [],
+        "bcell_count": 0,
+        "mhc1_epitopes": [],
+        "mhc1_count": 0,
+        "mhc2_epitopes": [],
+        "mhc2_count": 0,
+        "tool": "IEDB (Bepipred-2.0 / NetMHCpan-4.1 / NetMHCIIpan-4.0)"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 05 - Safety Filtering": {
+      "result": {
+        "safe_bcell_epitopes": [],
+        "safe_bcell_count": 0,
+        "safe_mhc1_epitopes": [],
+        "safe_mhc1_count": 0,
+        "safe_mhc2_epitopes": [],
+        "safe_mhc2_count": 0,
+        "bcell_removed": 0,
+        "mhc1_removed": 0,
+        "mhc2_removed": 0,
+        "filtering_criteria": [
+          "toxic",
+          "allergenic",
+          "non-antigenic"
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 06 - Population Coverage": {
+      "result": {
+        "bcell_peptides_used": [],
+        "mhc1_alleles_used": [],
+        "mhc2_alleles_used": [],
+        "bcell_population_coverage": {
+          "North America": 0.95,
+          "Europe": 0.93,
+          "East Asia": 0.88,
+          "South Asia": 0.91,
+          "Africa": 0.84,
+          "World": 0.9
+        },
+        "class1_population_coverage": {
+          "North America": 0.95,
+          "Europe": 0.93,
+          "East Asia": 0.88,
+          "South Asia": 0.91,
+          "Africa": 0.84,
+          "World": 0.9
+        },
+        "class2_population_coverage": {
+          "North America": 0.91,
+          "Europe": 0.89,
+          "East Asia": 0.84,
+          "South Asia": 0.87,
+          "Africa": 0.8,
+          "World": 0.86
+        },
+        "world_bcell_coverage_pct": 90.0,
+        "world_class1_coverage_pct": 90.0,
+        "world_class2_coverage_pct": 86.0
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 07 - IFN-Gamma Prediction": {
+      "result": {
+        "approach": "Motif and SVM hybrid",
+        "model": "IFN-gamma versus Non-IFN-gamma",
+        "ifn_gamma_epitopes": [],
+        "all_predictions": [],
+        "ifn_gamma_count": 0,
+        "total_predicted": 0,
+        "errors": []
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 08 - PEP-FOLD Modeling": {
+      "result": {
+        "peptides_submitted": 0,
+        "successful_models": 0,
+        "pepfold_models": [],
+        "skipped_invalid_length": [],
+        "errors": [
+          "No eligible peptides"
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 09 - Molecular Docking": {
+      "result": {
+        "docked_complexes": [],
+        "total_docked": 0
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 10 - Model Evaluation": {
+      "result": {
+        "evaluated_complexes": [],
+        "best_models": [],
+        "best_model_count": 0
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 11 - Construct Design": {
+      "result": {
+        "adjuvant_n_terminal": "APPHALS",
+        "adjuvant_c_terminal": "KDPNAPKRPPSAFFLFCSE",
+        "padre_sequence": "AAATLWKAAKFVA",
+        "mhc2_epitopes_used": [],
+        "mhc1_epitopes_used": [],
+        "bcell_epitopes_used": [],
+        "final_construct_sequence": "APPHALSEAAAKAAATLWKAAKFVAEAAAKKDPNAPKRPPSAFFLFCSE",
+        "construct_length_aa": 49
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 12 - Codon Optimization": {
+      "result": {
+        "expression_host": "E. coli",
+        "optimized_dna_sequence": "GCGCCGCCGCATGCGCTGAGCGAAGCGGCGGCGAAAGCGGCGGCGACCCTGTGGAAAGCGGCGAAATTTGTGGCGGAAGCGGCGGCGAAAAAAGATCCGAACGCGCCGAAACGCCCGCCGAGCGCGTTTTTTCTGTTTTGCAGCGAA",
+        "dna_length_bp": 147,
+        "cai_score": 0.9602,
+        "gc_content_pct": 64.63
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 13 - In-Silico Cloning": {
+      "result": {
+        "vector": "pShuttle-CMV",
+        "insert_length_bp": 147,
+        "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)",
+        "restriction_site_conflicts": [],
+        "cloning_compatible": true,
+        "cloning_status": "Success",
+        "cloning_map": {
+          "vector": "pShuttle-CMV",
+          "insert_size_bp": 147,
+          "cloning_sites": {
+            "upstream": "NotI (5')",
+            "downstream": "XhoI (3')"
+          },
+          "promoter": "CMV immediate-early",
+          "terminator": "BGH poly-A signal",
+          "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)"
+        }
+      },
+      "passed": true,
+      "error": null
+    }
+  },
+  "flags": [],
+  "overall_mev_candidacy": "WEAK MEV CANDIDATE"
+}

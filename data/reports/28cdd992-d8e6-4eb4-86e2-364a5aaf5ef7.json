@@ -1,0 +1,984 @@
+{
+  "job_id": "28cdd992-d8e6-4eb4-86e2-364a5aaf5ef7",
+  "uniprot_id": "P56856-2",
+  "status": "running",
+  "created_at": "2026-03-14T17:51:05.659217",
+  "completed_at": null,
+  "stages": {
+    "Step 01 - Sequence Retrieval": {
+      "result": {
+        "uniprot_id": "P56856-2",
+        "isoform": true,
+        "sequence": "MAVTACQGLGFVVSLIGIAGIIAATCMDQWSTQDLYNNPVTAVFNYQGLWRSCVRESSGFTECRGYFTLLGLPAMLQAVRALMIVGIVLGAIGLLVSIFALKCIRIGSMEDSAKANMTLTSGIMFIVSGLCAIAGVSVFANMLVTNFWMSTANMYTGMGGMVQTVQTRYTFGAALFVGWVAGGLTLIGGVMMCIACRGLAPEETNYKAVSYHASGHSVAYKPGGFKASTGFGSNTKNKKIYDGGARTEDEVQSYPSKHDYV",
+        "length": 261,
+        "protein_name": "Isoform A2 of Claudin-18",
+        "organism": "Homo sapiens"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 02 - Antigenicity Screening": {
+      "result": {
+        "antigenicity_score": 0.7392,
+        "classification": "Antigen",
+        "gate_passed": true,
+        "tool": "Kolaskar & Tongaonkar (1990) [fallback]",
+        "threshold": 0.4
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 03 - Physicochemical Analysis": {
+      "result": {
+        "molecular_weight": 27720.02,
+        "theoretical_pi": 8.6,
+        "instability_index": 32.05,
+        "aliphatic_index": 89.69,
+        "gravy": 0.448
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 04 - Epitope Prediction": {
+      "result": {
+        "bcell_epitopes": [],
+        "bcell_count": 0,
+        "mhc1_epitopes": [
+          {
+            "peptide": "RTEDEVQSY",
+            "start": 246,
+            "end": 254,
+            "hla_allele": "HLA-A*01:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*24:02",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "start": 203,
+            "end": 211,
+            "hla_allele": "HLA-A*26:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "start": 212,
+            "end": 220,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "start": 213,
+            "end": 221,
+            "hla_allele": "HLA-A*11:01",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "start": 161,
+            "end": 169,
+            "hla_allele": "HLA-A*29:02",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "NPVTAVFNY",
+            "start": 38,
+            "end": 46,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*23:01",
+            "percentile_rank": 0.03,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "AVFNYQGLW",
+            "start": 42,
+            "end": 50,
+            "hla_allele": "HLA-A*32:01",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "TRYTFGAAL",
+            "start": 167,
+            "end": 175,
+            "hla_allele": "HLA-C*07:01",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          }
+        ],
+        "mhc1_count": 10,
+        "mhc2_epitopes": [
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "start": 222,
+            "end": 236,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.06,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "start": 221,
+            "end": 235,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.08,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "TQDLYNNPVTAVFNY",
+            "start": 32,
+            "end": 46,
+            "hla_allele": "HLA-DRB3*02:02",
+            "percentile_rank": 0.26,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "start": 220,
+            "end": 234,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.3,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.33,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "STQDLYNNPVTAVFN",
+            "start": 31,
+            "end": 45,
+            "hla_allele": "HLA-DRB3*02:02",
+            "percentile_rank": 0.34,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.42,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.44,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "start": 143,
+            "end": 157,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.45,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.5,
+            "binding_strength": "Strong"
+          }
+        ],
+        "mhc2_count": 10,
+        "tool": "IEDB (Bepipred-2.0 / NetMHCpan-4.1 / NetMHCIIpan-4.0)"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 05 - Safety Filtering": {
+      "result": {
+        "safe_bcell_epitopes": [],
+        "safe_bcell_count": 0,
+        "safe_mhc1_epitopes": [
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*24:02",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "start": 203,
+            "end": 211,
+            "hla_allele": "HLA-A*26:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "start": 212,
+            "end": 220,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "start": 213,
+            "end": 221,
+            "hla_allele": "HLA-A*11:01",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "start": 161,
+            "end": 169,
+            "hla_allele": "HLA-A*29:02",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "NPVTAVFNY",
+            "start": 38,
+            "end": 46,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*23:01",
+            "percentile_rank": 0.03,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "AVFNYQGLW",
+            "start": 42,
+            "end": 50,
+            "hla_allele": "HLA-A*32:01",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "TRYTFGAAL",
+            "start": 167,
+            "end": 175,
+            "hla_allele": "HLA-C*07:01",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          }
+        ],
+        "safe_mhc1_count": 9,
+        "safe_mhc2_epitopes": [
+          {
+            "peptide": "TQDLYNNPVTAVFNY",
+            "start": 32,
+            "end": 46,
+            "hla_allele": "HLA-DRB3*02:02",
+            "percentile_rank": 0.26,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.33,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "STQDLYNNPVTAVFN",
+            "start": 31,
+            "end": 45,
+            "hla_allele": "HLA-DRB3*02:02",
+            "percentile_rank": 0.34,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.42,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.44,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.5,
+            "binding_strength": "Strong"
+          }
+        ],
+        "safe_mhc2_count": 6,
+        "bcell_removed": 0,
+        "mhc1_removed": 1,
+        "mhc2_removed": 4,
+        "filtering_criteria": [
+          "toxic",
+          "allergenic",
+          "non-antigenic"
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 06 - Population Coverage": {
+      "result": {
+        "bcell_peptides_used": [],
+        "mhc1_alleles_used": [
+          "HLA-A*32:01",
+          "HLA-A*11:01",
+          "HLA-A*23:01",
+          "HLA-C*07:01",
+          "HLA-A*24:02",
+          "HLA-A*29:02",
+          "HLA-B*35:01",
+          "HLA-A*26:01"
+        ],
+        "mhc2_alleles_used": [
+          "HLA-DRB3*02:02",
+          "HLA-DPA1*01:03/DPB1*02:01",
+          "HLA-DPA1*02:01/DPB1*01:01"
+        ],
+        "bcell_population_coverage": {
+          "North America": 0.98,
+          "Europe": 0.96,
+          "East Asia": 0.91,
+          "South Asia": 0.94,
+          "Africa": 0.87,
+          "World": 0.93
+        },
+        "class1_population_coverage": {
+          "North America": 0.89,
+          "Europe": 0.87,
+          "East Asia": 0.82,
+          "South Asia": 0.85,
+          "Africa": 0.78,
+          "World": 0.84
+        },
+        "class2_population_coverage": {
+          "North America": 0.85,
+          "Europe": 0.83,
+          "East Asia": 0.78,
+          "South Asia": 0.81,
+          "Africa": 0.74,
+          "World": 0.8
+        },
+        "world_bcell_coverage_pct": 93.0,
+        "world_class1_coverage_pct": 84.0,
+        "world_class2_coverage_pct": 80.0
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 07 - IFN-Gamma Prediction": {
+      "result": {
+        "approach": "Motif and SVM hybrid",
+        "model": "IFN-gamma versus Non IFN-gamma",
+        "ifn_gamma_epitopes": [],
+        "ifn_gamma_count": 0,
+        "errors": []
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 08 - PEP-FOLD Modeling": {
+      "result": {
+        "peptides_submitted": 9,
+        "successful_models": 9,
+        "pepfold_models": [
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*24:02",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   ARG A   1       5.310  -4.468  -6.564  1.00  0.75           N  \nATOM      2  CA  ARG A   1       4.572  -5.470  -5.801  1.00  0.76           C  \nATOM      3  C   ARG A   1       3.510  -4.817  -4.924  1.00  0.75           C  \nATOM      4  CB  ARG A   1       5.527  -6.299  -4.939  1.00  0.70           C  \nATOM      5  O   ARG A   1       3.816  -3.928  -4.126  1.00  0.69           O  \nATOM      6  CG  ARG A   1       4.881  -7.523  -4.309  1.00  0.66           C  \nATOM      7  CD  ARG A   1       5.867  -8.300  -3.448  1.00  0.64           C  \nATOM      8  NE  ARG A   1       5.733  -7.959  -2.034  1.00  0.56           N  \nATOM      9  NH1 ARG A   1       5.158 -10.093  -1.361  1.00  0.41           N  \nATOM     10  NH2 ARG A   1       5.306  -8.400   0.179  1.00  0.34           N  \nATOM     11  CZ  ARG A   1       5.399  -8.818  -1.075  1.00  0.60           C  \nATOM     12  N   TYR A   2       2.502  -4.532  -5.744  1.00  0.78           N  \nATOM     13  CA  TYR A   2       1.388  -3.805  -5.145  1.00  0.78           C  \nATOM     14  C   TYR A   2       0.791  -4.586  -3.980  1.00  0.76           C  \nATOM     15  CB  TYR A   2       0.306  -3.521  -6.191  1.00  0.74           C  \nATOM     16  O   TYR A   2       0.429  -5.756  -4.129  1.00  0.71           O  \nATOM     17  CG  TYR A   2       0.728  -2.527  -7.246  1.00  0.70           C  \nATOM     18  CD1 TYR A   2       0.929  -1.186  -6.926  1.00  0.66           C  \nATOM     19  CD2 TYR A   2       0.927  -2.925  -8.563  1.00  0.68           C  \nATOM     20  CE1 TYR A   2       1.316  -0.265  -7.895  1.00  0.67           C  \nATOM     21  CE2 TYR A   2       1.314  -2.014  -9.540  1.00  0.67           C  \nATOM     22  OH  TYR A   2       1.889   0.218 -10.159  1.00  0.66           O  \nATOM     23  CZ  TYR A   2       1.506  -0.688  -9.197  1.00  0.65           C  \nATOM     24  N   THR A   3       1.101  -4.467  -2.783  1.00  0.71           N  \nATOM     25  CA  THR A   3       0.456  -4.980  -1.579  1.00  0.69           C  \nATOM     26  C   THR A   3      -0.686  -4.066  -1.146  1.00  0.69           C  \nATOM     27  CB  THR A   3       1.465  -5.128  -0.425  1.00  0.65           C  \nATOM     28  O   THR A   3      -0.472  -2.883  -0.875  1.00  0.65           O  \nATOM     29  CG2 THR A   3       2.497  -6.208  -0.732  1.00  0.60           C  \nATOM     30  OG1 THR A   3       2.140  -3.880  -0.225  1.00  0.61           O  \nATOM     31  N   PHE A   4      -1.860  -4.105  -1.939  1.00  0.73           N  \nATOM     32  CA  PHE A   4      -3.178  -3.667  -1.495  1.00  0.72           C  \nATOM     33  C   PHE A   4      -3.316  -3.811   0.015  1.00  0.71           C  \nATOM     34  CB  PHE A   4      -4.277  -4.466  -2.202  1.00  0.68           C  \nATOM     35  O   PHE A   4      -3.000  -4.863   0.575  1.00  0.68           O  \nATOM     36  CG  PHE A   4      -4.479  -4.078  -3.642  1.00  0.66           C  \nATOM     37  CD1 PHE A   4      -5.161  -2.914  -3.974  1.00  0.63           C  \nATOM     38  CD2 PHE A   4      -3.987  -4.879  -4.664  1.00  0.64           C  \nATOM     39  CE1 PHE A   4      -5.349  -2.553  -5.306  1.00  0.62           C  \nATOM     40  CE2 PHE A   4      -4.171  -4.524  -5.998  1.00  0.62           C  \nATOM     41  CZ  PHE A   4      -4.853  -3.362  -6.316  1.00  0.60           C  \nATOM     42  N   GLY A   5      -2.936  -2.657   0.748  1.00  0.72           N  \nATOM     43  CA  GLY A   5      -3.003  -2.105   2.092  1.00  0.71           C  \nATOM     44  C   GLY A   5      -4.086  -2.739   2.944  1.00  0.72           C  \nATOM     45  O   GLY A   5      -5.263  -2.721   2.575  1.00  0.70           O  \nATOM     46  N   ALA A   6      -3.882  -3.909   3.375  1.00  0.72           N  \nATOM     47  CA  ALA A   6      -4.732  -4.580   4.355  1.00  0.71           C  \nATOM     48  C   ALA A   6      -5.483  -3.566   5.214  1.00  0.72           C  \nATOM     49  CB  ALA A   6      -3.899  -5.507   5.236  1.00  0.69           C  \nATOM     50  O   ALA A   6      -4.868  -2.710   5.855  1.00  0.69           O  \nATOM     51  N   ALA A   7      -6.472  -2.969   4.646  1.00  0.75           N  \nATOM     52  CA  ALA A   7      -7.365  -2.165   5.477  1.00  0.74           C  \nATOM     53  C   ALA A   7      -7.857  -2.960   6.682  1.00  0.75           C  \nATOM     54  CB  ALA A   7      -8.550  -1.664   4.654  1.00  0.72           C  \nATOM     55  O   ALA A   7      -8.320  -4.094   6.539  1.00  0.73           O  \nATOM     56  N   LEU A   8      -7.291  -2.823   7.886  1.00  0.76           N  \nATOM     57  CA  LEU A   8      -7.806  -3.309   9.161  1.00  0.75           C  \nATOM     58  C   LEU A   8      -8.812  -2.327   9.752  1.00  0.74           C  \nATOM     59  CB  LEU A   8      -6.659  -3.540  10.149  1.00  0.71           C  \nATOM     60  O   LEU A   8      -8.509  -1.142   9.910  1.00  0.71           O  \nATOM     61  CG  LEU A   8      -5.732  -4.718   9.848  1.00  0.68           C  \nATOM     62  CD1 LEU A   8      -4.549  -4.721  10.811  1.00  0.64           C  \nATOM     63  CD2 LEU A   8      -6.496  -6.035   9.929  1.00  0.64           C  \nATOM     64  N   PHE A   9     -10.081  -2.534   9.691  1.00  0.75           N  \nATOM     65  CA  PHE A   9     -10.981  -1.969  10.690  1.00  0.75           C  \nATOM     66  C   PHE A   9     -10.540  -2.357  12.096  1.00  0.74           C  \nATOM     67  CB  PHE A   9     -12.420  -2.435  10.444  1.00  0.70           C  \nATOM     68  O   PHE A   9      -9.952  -3.422  12.296  1.00  0.71           O  \nATOM     69  CG  PHE A   9     -12.906  -2.187   9.041  1.00  0.66           C  \nATOM     70  CD1 PHE A   9     -13.247  -0.906   8.625  1.00  0.63           C  \nATOM     71  CD2 PHE A   9     -13.024  -3.236   8.139  1.00  0.65           C  \nATOM     72  CE1 PHE A   9     -13.698  -0.673   7.328  1.00  0.58           C  \nATOM     73  CE2 PHE A   9     -13.474  -3.011   6.841  1.00  0.58           C  \nATOM     74  CZ  PHE A   9     -13.811  -1.730   6.438  1.00  0.56           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.73,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "hla_allele": "HLA-A*26:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   GLU A   1      -4.893   0.593  20.524  1.00  0.80           N  \nATOM      2  CA  GLU A   1      -5.728   1.338  19.586  1.00  0.80           C  \nATOM      3  C   GLU A   1      -6.191   0.450  18.434  1.00  0.80           C  \nATOM      4  CB  GLU A   1      -4.972   2.553  19.041  1.00  0.75           C  \nATOM      5  O   GLU A   1      -5.398  -0.305  17.867  1.00  0.74           O  \nATOM      6  CG  GLU A   1      -4.874   3.708  20.026  1.00  0.69           C  \nATOM      7  CD  GLU A   1      -4.146   4.918  19.462  1.00  0.66           C  \nATOM      8  OE1 GLU A   1      -3.514   4.799  18.388  1.00  0.65           O  \nATOM      9  OE2 GLU A   1      -4.207   5.993  20.100  1.00  0.62           O  \nATOM     10  N   THR A   2      -7.470  -0.259  18.517  1.00  0.84           N  \nATOM     11  CA  THR A   2      -8.048  -1.196  17.560  1.00  0.83           C  \nATOM     12  C   THR A   2      -7.667  -0.815  16.133  1.00  0.82           C  \nATOM     13  CB  THR A   2      -9.581  -1.251  17.689  1.00  0.79           C  \nATOM     14  O   THR A   2      -7.795   0.346  15.740  1.00  0.76           O  \nATOM     15  CG2 THR A   2     -10.160  -2.405  16.875  1.00  0.67           C  \nATOM     16  OG1 THR A   2      -9.933  -1.429  19.066  1.00  0.71           O  \nATOM     17  N   ASN A   3      -6.806  -1.519  15.502  1.00  0.80           N  \nATOM     18  CA  ASN A   3      -6.126  -1.506  14.211  1.00  0.80           C  \nATOM     19  C   ASN A   3      -7.001  -2.099  13.110  1.00  0.78           C  \nATOM     20  CB  ASN A   3      -4.797  -2.259  14.296  1.00  0.75           C  \nATOM     21  O   ASN A   3      -7.256  -3.304  13.097  1.00  0.72           O  \nATOM     22  CG  ASN A   3      -3.644  -1.477  13.698  1.00  0.70           C  \nATOM     23  ND2 ASN A   3      -2.421  -1.880  14.025  1.00  0.68           N  \nATOM     24  OD1 ASN A   3      -3.850  -0.519  12.948  1.00  0.67           O  \nATOM     25  N   TYR A   4      -7.964  -1.424  12.592  1.00  0.81           N  \nATOM     26  CA  TYR A   4      -8.791  -1.724  11.428  1.00  0.81           C  \nATOM     27  C   TYR A   4      -8.003  -1.539  10.137  1.00  0.80           C  \nATOM     28  CB  TYR A   4     -10.038  -0.836  11.410  1.00  0.77           C  \nATOM     29  O   TYR A   4      -7.634  -0.417   9.783  1.00  0.76           O  \nATOM     30  CG  TYR A   4     -10.877  -0.942  12.661  1.00  0.73           C  \nATOM     31  CD1 TYR A   4     -11.476  -2.148  13.021  1.00  0.69           C  \nATOM     32  CD2 TYR A   4     -11.074   0.161  13.484  1.00  0.70           C  \nATOM     33  CE1 TYR A   4     -12.251  -2.250  14.172  1.00  0.68           C  \nATOM     34  CE2 TYR A   4     -11.847   0.071  14.636  1.00  0.67           C  \nATOM     35  OH  TYR A   4     -13.197  -1.233  16.112  1.00  0.67           O  \nATOM     36  CZ  TYR A   4     -12.430  -1.137  14.972  1.00  0.68           C  \nATOM     37  N   LYS A   5      -7.348  -2.633   9.825  1.00  0.80           N  \nATOM     38  CA  LYS A   5      -6.680  -2.673   8.528  1.00  0.80           C  \nATOM     39  C   LYS A   5      -7.675  -2.958   7.406  1.00  0.80           C  \nATOM     40  CB  LYS A   5      -5.572  -3.727   8.526  1.00  0.77           C  \nATOM     41  O   LYS A   5      -8.470  -3.896   7.497  1.00  0.77           O  \nATOM     42  CG  LYS A   5      -4.218  -3.202   8.980  1.00  0.73           C  \nATOM     43  CD  LYS A   5      -3.164  -4.302   8.983  1.00  0.72           C  \nATOM     44  CE  LYS A   5      -1.817  -3.785   9.469  1.00  0.69           C  \nATOM     45  NZ  LYS A   5      -0.745  -4.816   9.330  1.00  0.62           N  \nATOM     46  N   ALA A   6      -8.046  -2.039   6.763  1.00  0.79           N  \nATOM     47  CA  ALA A   6      -8.871  -2.179   5.566  1.00  0.79           C  \nATOM     48  C   ALA A   6      -8.169  -3.032   4.513  1.00  0.79           C  \nATOM     49  CB  ALA A   6      -9.214  -0.806   4.992  1.00  0.77           C  \nATOM     50  O   ALA A   6      -6.967  -2.881   4.283  1.00  0.77           O  \nATOM     51  N   VAL A   7      -8.612  -4.209   4.148  1.00  0.78           N  \nATOM     52  CA  VAL A   7      -8.176  -4.930   2.956  1.00  0.77           C  \nATOM     53  C   VAL A   7      -8.991  -4.473   1.748  1.00  0.78           C  \nATOM     54  CB  VAL A   7      -8.306  -6.459   3.139  1.00  0.76           C  \nATOM     55  O   VAL A   7     -10.224  -4.476   1.786  1.00  0.75           O  \nATOM     56  CG1 VAL A   7      -7.212  -7.190   2.362  1.00  0.70           C  \nATOM     57  CG2 VAL A   7      -8.249  -6.825   4.621  1.00  0.72           C  \nATOM     58  N   SER A   8      -8.481  -3.489   0.786  1.00  0.79           N  \nATOM     59  CA  SER A   8      -8.997  -2.982  -0.482  1.00  0.78           C  \nATOM     60  C   SER A   8      -8.838  -4.012  -1.595  1.00  0.79           C  \nATOM     61  CB  SER A   8      -8.285  -1.686  -0.870  1.00  0.75           C  \nATOM     62  O   SER A   8      -7.848  -4.746  -1.632  1.00  0.77           O  \nATOM     63  OG  SER A   8      -8.477  -0.690   0.120  1.00  0.71           O  \nATOM     64  N   TYR A   9     -10.052  -4.448  -2.139  1.00  0.75           N  \nATOM     65  CA  TYR A   9      -9.873  -5.024  -3.467  1.00  0.75           C  \nATOM     66  C   TYR A   9      -9.111  -4.067  -4.377  1.00  0.73           C  \nATOM     67  CB  TYR A   9     -11.228  -5.370  -4.091  1.00  0.69           C  \nATOM     68  O   TYR A   9      -9.218  -2.847  -4.235  1.00  0.69           O  \nATOM     69  CG  TYR A   9     -12.030  -6.365  -3.287  1.00  0.66           C  \nATOM     70  CD1 TYR A   9     -11.699  -7.718  -3.288  1.00  0.62           C  \nATOM     71  CD2 TYR A   9     -13.120  -5.954  -2.528  1.00  0.63           C  \nATOM     72  CE1 TYR A   9     -12.436  -8.639  -2.550  1.00  0.59           C  \nATOM     73  CE2 TYR A   9     -13.864  -6.866  -1.786  1.00  0.56           C  \nATOM     74  OH  TYR A   9     -14.248  -9.111  -1.072  1.00  0.58           O  \nATOM     75  CZ  TYR A   9     -13.514  -8.204  -1.804  1.00  0.62           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.79,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   HIS A   1      -1.427   0.616  -1.513  1.00  0.56           N  \nATOM      2  CA  HIS A   1      -0.430   1.629  -1.187  1.00  0.55           C  \nATOM      3  C   HIS A   1       0.137   1.414   0.212  1.00  0.57           C  \nATOM      4  CB  HIS A   1      -1.034   3.031  -1.299  1.00  0.51           C  \nATOM      5  O   HIS A   1      -0.525   0.827   1.071  1.00  0.54           O  \nATOM      6  CG  HIS A   1      -0.023   4.101  -1.560  1.00  0.50           C  \nATOM      7  CD2 HIS A   1       0.424   4.638  -2.719  1.00  0.51           C  \nATOM      8  ND1 HIS A   1       0.659   4.743  -0.549  1.00  0.62           N  \nATOM      9  CE1 HIS A   1       1.483   5.632  -1.077  1.00  0.53           C  \nATOM     10  NE2 HIS A   1       1.360   5.589  -2.392  1.00  0.47           N  \nATOM     11  N   ALA A   2       1.288   1.262   0.492  1.00  0.58           N  \nATOM     12  CA  ALA A   2       2.196   0.978   1.600  1.00  0.56           C  \nATOM     13  C   ALA A   2       1.659   1.549   2.910  1.00  0.58           C  \nATOM     14  CB  ALA A   2       3.584   1.541   1.308  1.00  0.53           C  \nATOM     15  O   ALA A   2       2.403   1.697   3.881  1.00  0.57           O  \nATOM     16  N   SER A   3       0.425   1.670   3.115  1.00  0.60           N  \nATOM     17  CA  SER A   3      -0.233   2.095   4.346  1.00  0.58           C  \nATOM     18  C   SER A   3      -1.423   1.199   4.675  1.00  0.59           C  \nATOM     19  CB  SER A   3      -0.695   3.548   4.234  1.00  0.54           C  \nATOM     20  O   SER A   3      -2.069   0.660   3.773  1.00  0.56           O  \nATOM     21  OG  SER A   3      -1.294   3.981   5.443  1.00  0.58           O  \nATOM     22  N   GLY A   4      -1.259   0.176   5.511  1.00  0.64           N  \nATOM     23  CA  GLY A   4      -2.127  -0.713   6.268  1.00  0.62           C  \nATOM     24  C   GLY A   4      -3.583  -0.290   6.242  1.00  0.63           C  \nATOM     25  O   GLY A   4      -4.419  -0.884   6.926  1.00  0.62           O  \nATOM     26  N   HIS A   5      -3.861   0.685   5.507  1.00  0.60           N  \nATOM     27  CA  HIS A   5      -5.238   1.097   5.260  1.00  0.59           C  \nATOM     28  C   HIS A   5      -5.672   0.748   3.841  1.00  0.60           C  \nATOM     29  CB  HIS A   5      -5.399   2.599   5.504  1.00  0.56           C  \nATOM     30  O   HIS A   5      -4.931   0.988   2.884  1.00  0.58           O  \nATOM     31  CG  HIS A   5      -4.453   3.441   4.709  1.00  0.55           C  \nATOM     32  CD2 HIS A   5      -4.650   4.194   3.601  1.00  0.54           C  \nATOM     33  ND1 HIS A   5      -3.120   3.570   5.032  1.00  0.60           N  \nATOM     34  CE1 HIS A   5      -2.536   4.370   4.155  1.00  0.54           C  \nATOM     35  NE2 HIS A   5      -3.442   4.762   3.277  1.00  0.50           N  \nATOM     36  N   SER A   6      -6.004  -0.354   3.747  1.00  0.66           N  \nATOM     37  CA  SER A   6      -6.632  -0.916   2.556  1.00  0.65           C  \nATOM     38  C   SER A   6      -7.935  -0.195   2.225  1.00  0.64           C  \nATOM     39  CB  SER A   6      -6.901  -2.410   2.746  1.00  0.61           C  \nATOM     40  O   SER A   6      -8.710   0.141   3.123  1.00  0.62           O  \nATOM     41  OG  SER A   6      -5.728  -3.082   3.170  1.00  0.61           O  \nATOM     42  N   VAL A   7      -7.725   0.619   1.129  1.00  0.67           N  \nATOM     43  CA  VAL A   7      -8.775   1.363   0.440  1.00  0.66           C  \nATOM     44  C   VAL A   7     -10.045   0.518   0.367  1.00  0.67           C  \nATOM     45  CB  VAL A   7      -8.333   1.785  -0.980  1.00  0.64           C  \nATOM     46  O   VAL A   7     -10.010  -0.628  -0.086  1.00  0.67           O  \nATOM     47  CG1 VAL A   7      -8.284   3.307  -1.100  1.00  0.60           C  \nATOM     48  CG2 VAL A   7      -6.974   1.175  -1.318  1.00  0.63           C  \nATOM     49  N   ALA A   8     -10.869   0.605   1.409  1.00  0.65           N  \nATOM     50  CA  ALA A   8     -12.254   0.170   1.573  1.00  0.63           C  \nATOM     51  C   ALA A   8     -13.163   0.836   0.545  1.00  0.64           C  \nATOM     52  CB  ALA A   8     -12.743   0.473   2.987  1.00  0.61           C  \nATOM     53  O   ALA A   8     -12.976   2.007   0.208  1.00  0.61           O  \nATOM     54  N   TYR A   9     -13.208   0.223  -0.345  1.00  0.61           N  \nATOM     55  CA  TYR A   9     -13.811   0.036  -1.660  1.00  0.62           C  \nATOM     56  C   TYR A   9     -12.770   0.183  -2.764  1.00  0.59           C  \nATOM     57  CB  TYR A   9     -14.948   1.039  -1.878  1.00  0.56           C  \nATOM     58  O   TYR A   9     -11.960   1.113  -2.741  1.00  0.57           O  \nATOM     59  CG  TYR A   9     -15.627   0.906  -3.220  1.00  0.55           C  \nATOM     60  CD1 TYR A   9     -15.271   1.727  -4.287  1.00  0.53           C  \nATOM     61  CD2 TYR A   9     -16.625  -0.041  -3.422  1.00  0.54           C  \nATOM     62  CE1 TYR A   9     -15.895   1.608  -5.525  1.00  0.50           C  \nATOM     63  CE2 TYR A   9     -17.256  -0.168  -4.656  1.00  0.47           C  \nATOM     64  OH  TYR A   9     -17.506   0.538  -6.922  1.00  0.51           O  \nATOM     65  CZ  TYR A   9     -16.885   0.659  -5.699  1.00  0.48           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.61,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "hla_allele": "HLA-A*11:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   ALA A   1      -4.004   1.367  11.996  1.00  0.59           N  \nATOM      2  CA  ALA A   1      -3.848   0.588  10.770  1.00  0.58           C  \nATOM      3  C   ALA A   1      -4.684   1.175   9.637  1.00  0.59           C  \nATOM      4  CB  ALA A   1      -4.235  -0.869  11.013  1.00  0.53           C  \nATOM      5  O   ALA A   1      -5.897   1.349   9.777  1.00  0.55           O  \nATOM      6  N   SER A   2      -4.239   2.426   9.009  1.00  0.63           N  \nATOM      7  CA  SER A   2      -4.977   3.417   8.233  1.00  0.62           C  \nATOM      8  C   SER A   2      -5.622   2.788   7.003  1.00  0.63           C  \nATOM      9  CB  SER A   2      -4.054   4.560   7.806  1.00  0.57           C  \nATOM     10  O   SER A   2      -4.990   1.994   6.302  1.00  0.59           O  \nATOM     11  OG  SER A   2      -4.718   5.436   6.912  1.00  0.56           O  \nATOM     12  N   GLY A   3      -6.556   2.039   7.064  1.00  0.63           N  \nATOM     13  CA  GLY A   3      -7.651   1.398   6.353  1.00  0.62           C  \nATOM     14  C   GLY A   3      -7.849   1.940   4.950  1.00  0.62           C  \nATOM     15  O   GLY A   3      -8.801   1.564   4.262  1.00  0.60           O  \nATOM     16  N   HIS A   4      -7.085   2.805   4.514  1.00  0.62           N  \nATOM     17  CA  HIS A   4      -7.209   3.497   3.236  1.00  0.61           C  \nATOM     18  C   HIS A   4      -6.418   2.783   2.144  1.00  0.61           C  \nATOM     19  CB  HIS A   4      -6.737   4.947   3.363  1.00  0.56           C  \nATOM     20  O   HIS A   4      -5.200   2.625   2.257  1.00  0.58           O  \nATOM     21  CG  HIS A   4      -7.447   5.891   2.446  1.00  0.55           C  \nATOM     22  CD2 HIS A   4      -8.630   5.779   1.796  1.00  0.55           C  \nATOM     23  ND1 HIS A   4      -6.935   7.124   2.106  1.00  0.56           N  \nATOM     24  CE1 HIS A   4      -7.776   7.732   1.285  1.00  0.53           C  \nATOM     25  NE2 HIS A   4      -8.812   6.937   1.081  1.00  0.49           N  \nATOM     26  N   SER A   5      -6.842   1.656   1.954  1.00  0.65           N  \nATOM     27  CA  SER A   5      -6.715   0.779   0.794  1.00  0.65           C  \nATOM     28  C   SER A   5      -6.703   1.579  -0.504  1.00  0.65           C  \nATOM     29  CB  SER A   5      -7.855  -0.240   0.765  1.00  0.60           C  \nATOM     30  O   SER A   5      -7.501   2.502  -0.678  1.00  0.61           O  \nATOM     31  OG  SER A   5      -7.629  -1.275   1.706  1.00  0.60           O  \nATOM     32  N   VAL A   6      -5.394   1.575  -0.883  1.00  0.69           N  \nATOM     33  CA  VAL A   6      -4.964   2.082  -2.182  1.00  0.68           C  \nATOM     34  C   VAL A   6      -6.005   1.734  -3.244  1.00  0.69           C  \nATOM     35  CB  VAL A   6      -3.584   1.515  -2.584  1.00  0.66           C  \nATOM     36  O   VAL A   6      -6.191   0.562  -3.579  1.00  0.67           O  \nATOM     37  CG1 VAL A   6      -3.142   2.075  -3.935  1.00  0.60           C  \nATOM     38  CG2 VAL A   6      -2.545   1.827  -1.508  1.00  0.61           C  \nATOM     39  N   ALA A   7      -7.182   2.142  -3.067  1.00  0.64           N  \nATOM     40  CA  ALA A   7      -8.261   2.065  -4.049  1.00  0.62           C  \nATOM     41  C   ALA A   7      -7.855   2.728  -5.362  1.00  0.64           C  \nATOM     42  CB  ALA A   7      -9.529   2.714  -3.499  1.00  0.60           C  \nATOM     43  O   ALA A   7      -7.296   3.827  -5.363  1.00  0.61           O  \nATOM     44  N   TYR A   8      -7.167   2.182  -5.992  1.00  0.68           N  \nATOM     45  CA  TYR A   8      -6.843   2.089  -7.411  1.00  0.67           C  \nATOM     46  C   TYR A   8      -5.337   1.979  -7.621  1.00  0.66           C  \nATOM     47  CB  TYR A   8      -7.387   3.304  -8.168  1.00  0.62           C  \nATOM     48  O   TYR A   8      -4.830   2.289  -8.702  1.00  0.63           O  \nATOM     49  CG  TYR A   8      -6.894   4.626  -7.630  1.00  0.60           C  \nATOM     50  CD1 TYR A   8      -7.594   5.298  -6.631  1.00  0.56           C  \nATOM     51  CD2 TYR A   8      -5.729   5.205  -8.121  1.00  0.57           C  \nATOM     52  CE1 TYR A   8      -7.144   6.517  -6.134  1.00  0.56           C  \nATOM     53  CE2 TYR A   8      -5.270   6.423  -7.631  1.00  0.56           C  \nATOM     54  OH  TYR A   8      -5.533   8.276  -6.150  1.00  0.59           O  \nATOM     55  CZ  TYR A   8      -5.983   7.070  -6.639  1.00  0.55           C  \nATOM     56  N   LYS A   9      -4.476   1.908  -6.570  1.00  0.68           N  \nATOM     57  CA  LYS A   9      -3.111   1.522  -6.915  1.00  0.68           C  \nATOM     58  C   LYS A   9      -2.784   0.129  -6.384  1.00  0.66           C  \nATOM     59  CB  LYS A   9      -2.110   2.540  -6.367  1.00  0.64           C  \nATOM     60  O   LYS A   9      -3.261  -0.262  -5.317  1.00  0.64           O  \nATOM     61  CG  LYS A   9      -0.703   2.389  -6.928  1.00  0.61           C  \nATOM     62  CD  LYS A   9       0.139   3.631  -6.667  1.00  0.60           C  \nATOM     63  CE  LYS A   9       1.599   3.404  -7.034  1.00  0.54           C  \nATOM     64  NZ  LYS A   9       2.452   4.571  -6.657  1.00  0.48           N  ",
+            "sopep_energy": null,
+            "plddt_score": 0.64,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "hla_allele": "HLA-A*29:02",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   MET A   1     -11.866 -12.325  -7.828  1.00  0.87           N  \nATOM      2  CA  MET A   1     -11.189 -11.039  -7.970  1.00  0.88           C  \nATOM      3  C   MET A   1      -9.697 -11.175  -7.683  1.00  0.88           C  \nATOM      4  CB  MET A   1     -11.808  -9.998  -7.035  1.00  0.82           C  \nATOM      5  O   MET A   1      -9.304 -11.823  -6.711  1.00  0.81           O  \nATOM      6  CG  MET A   1     -13.307  -9.825  -7.218  1.00  0.72           C  \nATOM      7  SD  MET A   1     -13.753  -9.318  -8.924  1.00  0.62           S  \nATOM      8  CE  MET A   1     -14.414  -7.659  -8.603  1.00  0.71           C  \nATOM      9  N   VAL A   2      -8.751 -11.154  -8.441  1.00  0.91           N  \nATOM     10  CA  VAL A   2      -7.314 -11.321  -8.253  1.00  0.91           C  \nATOM     11  C   VAL A   2      -6.732 -10.078  -7.584  1.00  0.90           C  \nATOM     12  CB  VAL A   2      -6.593 -11.593  -9.593  1.00  0.88           C  \nATOM     13  O   VAL A   2      -6.977  -8.954  -8.030  1.00  0.87           O  \nATOM     14  CG1 VAL A   2      -5.146 -12.019  -9.351  1.00  0.74           C  \nATOM     15  CG2 VAL A   2      -7.341 -12.658 -10.393  1.00  0.75           C  \nATOM     16  N   GLN A   3      -6.402 -10.089  -6.500  1.00  0.89           N  \nATOM     17  CA  GLN A   3      -5.798  -8.995  -5.747  1.00  0.89           C  \nATOM     18  C   GLN A   3      -4.358  -8.750  -6.192  1.00  0.88           C  \nATOM     19  CB  GLN A   3      -5.841  -9.286  -4.247  1.00  0.85           C  \nATOM     20  O   GLN A   3      -3.565  -9.689  -6.289  1.00  0.85           O  \nATOM     21  CG  GLN A   3      -5.843  -8.036  -3.377  1.00  0.76           C  \nATOM     22  CD  GLN A   3      -7.161  -7.286  -3.430  1.00  0.76           C  \nATOM     23  NE2 GLN A   3      -7.184  -6.088  -2.858  1.00  0.72           N  \nATOM     24  OE1 GLN A   3      -8.150  -7.780  -3.981  1.00  0.75           O  \nATOM     25  N   THR A   4      -4.019  -7.612  -6.685  1.00  0.86           N  \nATOM     26  CA  THR A   4      -2.675  -7.214  -7.088  1.00  0.86           C  \nATOM     27  C   THR A   4      -1.949  -6.521  -5.939  1.00  0.85           C  \nATOM     28  CB  THR A   4      -2.712  -6.281  -8.312  1.00  0.84           C  \nATOM     29  O   THR A   4      -2.543  -5.719  -5.215  1.00  0.82           O  \nATOM     30  CG2 THR A   4      -1.376  -6.283  -9.047  1.00  0.74           C  \nATOM     31  OG1 THR A   4      -3.739  -6.721  -9.210  1.00  0.76           O  \nATOM     32  N   VAL A   5      -0.725  -6.924  -5.627  1.00  0.85           N  \nATOM     33  CA  VAL A   5       0.121  -6.279  -4.628  1.00  0.85           C  \nATOM     34  C   VAL A   5       0.921  -5.153  -5.278  1.00  0.85           C  \nATOM     35  CB  VAL A   5       1.075  -7.290  -3.954  1.00  0.83           C  \nATOM     36  O   VAL A   5       1.613  -5.370  -6.276  1.00  0.83           O  \nATOM     37  CG1 VAL A   5       1.980  -6.587  -2.944  1.00  0.71           C  \nATOM     38  CG2 VAL A   5       0.278  -8.405  -3.277  1.00  0.72           C  \nATOM     39  N   GLN A   6       0.608  -3.999  -4.940  1.00  0.85           N  \nATOM     40  CA  GLN A   6       1.357  -2.822  -5.368  1.00  0.84           C  \nATOM     41  C   GLN A   6       2.733  -2.776  -4.710  1.00  0.84           C  \nATOM     42  CB  GLN A   6       0.579  -1.545  -5.046  1.00  0.82           C  \nATOM     43  O   GLN A   6       2.849  -2.913  -3.490  1.00  0.83           O  \nATOM     44  CG  GLN A   6      -0.397  -1.128  -6.139  1.00  0.77           C  \nATOM     45  CD  GLN A   6      -1.460  -0.167  -5.641  1.00  0.77           C  \nATOM     46  NE2 GLN A   6      -2.062   0.579  -6.561  1.00  0.72           N  \nATOM     47  OE1 GLN A   6      -1.738  -0.095  -4.440  1.00  0.72           O  \nATOM     48  N   THR A   7       3.753  -2.889  -5.452  1.00  0.83           N  \nATOM     49  CA  THR A   7       5.137  -2.730  -5.019  1.00  0.82           C  \nATOM     50  C   THR A   7       5.542  -1.259  -5.030  1.00  0.82           C  \nATOM     51  CB  THR A   7       6.098  -3.537  -5.912  1.00  0.81           C  \nATOM     52  O   THR A   7       5.253  -0.537  -5.986  1.00  0.80           O  \nATOM     53  CG2 THR A   7       7.518  -3.510  -5.356  1.00  0.75           C  \nATOM     54  OG1 THR A   7       5.649  -4.896  -5.981  1.00  0.73           O  \nATOM     55  N   ARG A   8       5.846  -0.683  -3.868  1.00  0.83           N  \nATOM     56  CA  ARG A   8       6.341   0.683  -3.729  1.00  0.82           C  \nATOM     57  C   ARG A   8       7.842   0.751  -3.989  1.00  0.82           C  \nATOM     58  CB  ARG A   8       6.024   1.231  -2.336  1.00  0.79           C  \nATOM     59  O   ARG A   8       8.608  -0.048  -3.446  1.00  0.79           O  \nATOM     60  CG  ARG A   8       4.540   1.437  -2.077  1.00  0.75           C  \nATOM     61  CD  ARG A   8       4.276   1.915  -0.657  1.00  0.77           C  \nATOM     62  NE  ARG A   8       2.858   1.844  -0.319  1.00  0.69           N  \nATOM     63  NH1 ARG A   8       3.173   2.116   1.954  1.00  0.63           N  \nATOM     64  NH2 ARG A   8       1.058   1.863   1.108  1.00  0.62           N  \nATOM     65  CZ  ARG A   8       2.366   1.942   0.913  1.00  0.68           C  \nATOM     66  N   TYR A   9       8.356   1.313  -5.134  1.00  0.76           N  \nATOM     67  CA  TYR A   9       9.746   1.750  -5.066  1.00  0.75           C  \nATOM     68  C   TYR A   9       9.893   2.962  -4.155  1.00  0.74           C  \nATOM     69  CB  TYR A   9      10.274   2.081  -6.466  1.00  0.71           C  \nATOM     70  O   TYR A   9       9.071   3.880  -4.196  1.00  0.69           O  \nATOM     71  CG  TYR A   9      10.193   0.926  -7.434  1.00  0.67           C  \nATOM     72  CD1 TYR A   9      11.059  -0.161  -7.326  1.00  0.61           C  \nATOM     73  CD2 TYR A   9       9.253   0.918  -8.458  1.00  0.62           C  \nATOM     74  CE1 TYR A   9      10.990  -1.227  -8.217  1.00  0.57           C  \nATOM     75  CE2 TYR A   9       9.175  -0.142  -9.355  1.00  0.55           C  \nATOM     76  OH  TYR A   9       9.973  -2.261 -10.111  1.00  0.57           O  \nATOM     77  CZ  TYR A   9      10.046  -1.209  -9.226  1.00  0.59           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.85,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "NPVTAVFNY",
+            "hla_allele": "HLA-B*35:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   ASN A   1       1.505  19.501  10.420  1.00  0.69           N  \nATOM      2  CA  ASN A   1       1.022  18.793  11.600  1.00  0.71           C  \nATOM      3  C   ASN A   1       1.210  17.285  11.465  1.00  0.69           C  \nATOM      4  CB  ASN A   1      -0.449  19.123  11.860  1.00  0.63           C  \nATOM      5  O   ASN A   1       0.811  16.692  10.461  1.00  0.63           O  \nATOM      6  CG  ASN A   1      -0.904  18.713  13.247  1.00  0.61           C  \nATOM      7  ND2 ASN A   1      -2.135  19.067  13.597  1.00  0.61           N  \nATOM      8  OD1 ASN A   1      -0.154  18.084  13.999  1.00  0.58           O  \nATOM      9  N   PRO A   2       2.513  16.808  12.014  1.00  0.65           N  \nATOM     10  CA  PRO A   2       2.886  15.708  11.123  1.00  0.65           C  \nATOM     11  C   PRO A   2       1.762  14.689  10.942  1.00  0.66           C  \nATOM     12  CB  PRO A   2       4.088  15.075  11.827  1.00  0.58           C  \nATOM     13  O   PRO A   2       1.421  13.967  11.882  1.00  0.64           O  \nATOM     14  CG  PRO A   2       3.947  15.477  13.260  1.00  0.55           C  \nATOM     15  CD  PRO A   2       3.105  16.718  13.326  1.00  0.55           C  \nATOM     16  N   VAL A   3       0.551  15.179  10.921  1.00  0.66           N  \nATOM     17  CA  VAL A   3      -0.841  14.761  11.043  1.00  0.65           C  \nATOM     18  C   VAL A   3      -1.254  13.969   9.805  1.00  0.65           C  \nATOM     19  CB  VAL A   3      -1.782  15.971  11.241  1.00  0.59           C  \nATOM     20  O   VAL A   3      -1.054  14.421   8.675  1.00  0.61           O  \nATOM     21  CG1 VAL A   3      -3.244  15.528  11.214  1.00  0.53           C  \nATOM     22  CG2 VAL A   3      -1.461  16.687  12.551  1.00  0.54           C  \nATOM     23  N   THR A   4      -1.155  12.331  10.124  1.00  0.69           N  \nATOM     24  CA  THR A   4      -1.837  11.084   9.797  1.00  0.68           C  \nATOM     25  C   THR A   4      -2.646  11.230   8.511  1.00  0.68           C  \nATOM     26  CB  THR A   4      -2.764  10.636  10.942  1.00  0.64           C  \nATOM     27  O   THR A   4      -3.467  12.141   8.389  1.00  0.66           O  \nATOM     28  CG2 THR A   4      -2.079   9.607  11.835  1.00  0.59           C  \nATOM     29  OG1 THR A   4      -3.121  11.777  11.733  1.00  0.66           O  \nATOM     30  N   ALA A   5      -1.927  10.771   7.321  1.00  0.72           N  \nATOM     31  CA  ALA A   5      -2.721  10.462   6.134  1.00  0.71           C  \nATOM     32  C   ALA A   5      -3.275   9.042   6.201  1.00  0.71           C  \nATOM     33  CB  ALA A   5      -1.883  10.644   4.871  1.00  0.68           C  \nATOM     34  O   ALA A   5      -2.546   8.098   6.515  1.00  0.68           O  \nATOM     35  N   VAL A   6      -4.431   8.876   6.627  1.00  0.74           N  \nATOM     36  CA  VAL A   6      -5.485   7.866   6.613  1.00  0.73           C  \nATOM     37  C   VAL A   6      -5.850   7.520   5.172  1.00  0.73           C  \nATOM     38  CB  VAL A   6      -6.738   8.343   7.381  1.00  0.70           C  \nATOM     39  O   VAL A   6      -5.897   8.400   4.308  1.00  0.70           O  \nATOM     40  CG1 VAL A   6      -7.856   7.307   7.287  1.00  0.65           C  \nATOM     41  CG2 VAL A   6      -6.392   8.629   8.841  1.00  0.65           C  \nATOM     42  N   PHE A   7      -5.554   6.301   4.646  1.00  0.75           N  \nATOM     43  CA  PHE A   7      -6.118   5.579   3.512  1.00  0.74           C  \nATOM     44  C   PHE A   7      -7.584   5.945   3.311  1.00  0.74           C  \nATOM     45  CB  PHE A   7      -5.978   4.067   3.712  1.00  0.71           C  \nATOM     46  O   PHE A   7      -8.373   5.909   4.258  1.00  0.71           O  \nATOM     47  CG  PHE A   7      -4.668   3.509   3.225  1.00  0.69           C  \nATOM     48  CD1 PHE A   7      -3.973   4.129   2.193  1.00  0.67           C  \nATOM     49  CD2 PHE A   7      -4.130   2.365   3.799  1.00  0.68           C  \nATOM     50  CE1 PHE A   7      -2.760   3.615   1.740  1.00  0.65           C  \nATOM     51  CE2 PHE A   7      -2.919   1.845   3.352  1.00  0.64           C  \nATOM     52  CZ  PHE A   7      -2.236   2.471   2.322  1.00  0.63           C  \nATOM     53  N   ASN A   8      -8.031   6.812   2.331  1.00  0.70           N  \nATOM     54  CA  ASN A   8      -9.290   7.295   1.774  1.00  0.69           C  \nATOM     55  C   ASN A   8      -9.674   6.531   0.510  1.00  0.68           C  \nATOM     56  CB  ASN A   8      -9.209   8.795   1.484  1.00  0.65           C  \nATOM     57  O   ASN A   8      -8.804   6.122  -0.262  1.00  0.64           O  \nATOM     58  CG  ASN A   8     -10.571   9.420   1.253  1.00  0.63           C  \nATOM     59  ND2 ASN A   8     -10.583  10.646   0.744  1.00  0.60           N  \nATOM     60  OD1 ASN A   8     -11.604   8.805   1.532  1.00  0.60           O  \nATOM     61  N   TYR A   9     -10.406   5.494   0.297  1.00  0.68           N  \nATOM     62  CA  TYR A   9     -10.861   4.473  -0.639  1.00  0.68           C  \nATOM     63  C   TYR A   9      -9.682   3.816  -1.346  1.00  0.67           C  \nATOM     64  CB  TYR A   9     -11.818   5.078  -1.671  1.00  0.62           C  \nATOM     65  O   TYR A   9      -8.715   4.490  -1.711  1.00  0.63           O  \nATOM     66  CG  TYR A   9     -13.089   5.629  -1.071  1.00  0.60           C  \nATOM     67  CD1 TYR A   9     -13.962   4.806  -0.364  1.00  0.57           C  \nATOM     68  CD2 TYR A   9     -13.420   6.972  -1.212  1.00  0.58           C  \nATOM     69  CE1 TYR A   9     -15.135   5.308   0.189  1.00  0.53           C  \nATOM     70  CE2 TYR A   9     -14.590   7.486  -0.663  1.00  0.52           C  \nATOM     71  OH  TYR A   9     -16.600   7.150   0.580  1.00  0.51           O  \nATOM     72  CZ  TYR A   9     -15.440   6.648   0.035  1.00  0.52           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.69,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*23:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   ARG A   1       5.310  -4.468  -6.564  1.00  0.75           N  \nATOM      2  CA  ARG A   1       4.572  -5.470  -5.801  1.00  0.76           C  \nATOM      3  C   ARG A   1       3.510  -4.817  -4.924  1.00  0.75           C  \nATOM      4  CB  ARG A   1       5.527  -6.299  -4.939  1.00  0.70           C  \nATOM      5  O   ARG A   1       3.816  -3.928  -4.126  1.00  0.69           O  \nATOM      6  CG  ARG A   1       4.881  -7.523  -4.309  1.00  0.66           C  \nATOM      7  CD  ARG A   1       5.867  -8.300  -3.448  1.00  0.64           C  \nATOM      8  NE  ARG A   1       5.733  -7.959  -2.034  1.00  0.56           N  \nATOM      9  NH1 ARG A   1       5.158 -10.093  -1.361  1.00  0.41           N  \nATOM     10  NH2 ARG A   1       5.306  -8.400   0.179  1.00  0.34           N  \nATOM     11  CZ  ARG A   1       5.399  -8.818  -1.075  1.00  0.60           C  \nATOM     12  N   TYR A   2       2.502  -4.532  -5.744  1.00  0.78           N  \nATOM     13  CA  TYR A   2       1.388  -3.805  -5.145  1.00  0.78           C  \nATOM     14  C   TYR A   2       0.791  -4.586  -3.980  1.00  0.76           C  \nATOM     15  CB  TYR A   2       0.306  -3.521  -6.191  1.00  0.74           C  \nATOM     16  O   TYR A   2       0.429  -5.756  -4.129  1.00  0.71           O  \nATOM     17  CG  TYR A   2       0.728  -2.527  -7.246  1.00  0.70           C  \nATOM     18  CD1 TYR A   2       0.929  -1.186  -6.926  1.00  0.66           C  \nATOM     19  CD2 TYR A   2       0.927  -2.925  -8.563  1.00  0.68           C  \nATOM     20  CE1 TYR A   2       1.316  -0.265  -7.895  1.00  0.67           C  \nATOM     21  CE2 TYR A   2       1.314  -2.014  -9.540  1.00  0.67           C  \nATOM     22  OH  TYR A   2       1.889   0.218 -10.159  1.00  0.66           O  \nATOM     23  CZ  TYR A   2       1.506  -0.688  -9.197  1.00  0.65           C  \nATOM     24  N   THR A   3       1.101  -4.467  -2.783  1.00  0.71           N  \nATOM     25  CA  THR A   3       0.456  -4.980  -1.579  1.00  0.69           C  \nATOM     26  C   THR A   3      -0.686  -4.066  -1.146  1.00  0.69           C  \nATOM     27  CB  THR A   3       1.465  -5.128  -0.425  1.00  0.65           C  \nATOM     28  O   THR A   3      -0.472  -2.883  -0.875  1.00  0.65           O  \nATOM     29  CG2 THR A   3       2.497  -6.208  -0.732  1.00  0.60           C  \nATOM     30  OG1 THR A   3       2.140  -3.880  -0.225  1.00  0.61           O  \nATOM     31  N   PHE A   4      -1.860  -4.105  -1.939  1.00  0.73           N  \nATOM     32  CA  PHE A   4      -3.178  -3.667  -1.495  1.00  0.72           C  \nATOM     33  C   PHE A   4      -3.316  -3.811   0.015  1.00  0.71           C  \nATOM     34  CB  PHE A   4      -4.277  -4.466  -2.202  1.00  0.68           C  \nATOM     35  O   PHE A   4      -3.000  -4.863   0.575  1.00  0.68           O  \nATOM     36  CG  PHE A   4      -4.479  -4.078  -3.642  1.00  0.66           C  \nATOM     37  CD1 PHE A   4      -5.161  -2.914  -3.974  1.00  0.63           C  \nATOM     38  CD2 PHE A   4      -3.987  -4.879  -4.664  1.00  0.64           C  \nATOM     39  CE1 PHE A   4      -5.349  -2.553  -5.306  1.00  0.62           C  \nATOM     40  CE2 PHE A   4      -4.171  -4.524  -5.998  1.00  0.62           C  \nATOM     41  CZ  PHE A   4      -4.853  -3.362  -6.316  1.00  0.60           C  \nATOM     42  N   GLY A   5      -2.936  -2.657   0.748  1.00  0.72           N  \nATOM     43  CA  GLY A   5      -3.003  -2.105   2.092  1.00  0.71           C  \nATOM     44  C   GLY A   5      -4.086  -2.739   2.944  1.00  0.72           C  \nATOM     45  O   GLY A   5      -5.263  -2.721   2.575  1.00  0.70           O  \nATOM     46  N   ALA A   6      -3.882  -3.909   3.375  1.00  0.72           N  \nATOM     47  CA  ALA A   6      -4.732  -4.580   4.355  1.00  0.71           C  \nATOM     48  C   ALA A   6      -5.483  -3.566   5.214  1.00  0.72           C  \nATOM     49  CB  ALA A   6      -3.899  -5.507   5.236  1.00  0.69           C  \nATOM     50  O   ALA A   6      -4.868  -2.710   5.855  1.00  0.69           O  \nATOM     51  N   ALA A   7      -6.472  -2.969   4.646  1.00  0.75           N  \nATOM     52  CA  ALA A   7      -7.365  -2.165   5.477  1.00  0.74           C  \nATOM     53  C   ALA A   7      -7.857  -2.960   6.682  1.00  0.75           C  \nATOM     54  CB  ALA A   7      -8.550  -1.664   4.654  1.00  0.72           C  \nATOM     55  O   ALA A   7      -8.320  -4.094   6.539  1.00  0.73           O  \nATOM     56  N   LEU A   8      -7.291  -2.823   7.886  1.00  0.76           N  \nATOM     57  CA  LEU A   8      -7.806  -3.309   9.161  1.00  0.75           C  \nATOM     58  C   LEU A   8      -8.812  -2.327   9.752  1.00  0.74           C  \nATOM     59  CB  LEU A   8      -6.659  -3.540  10.149  1.00  0.71           C  \nATOM     60  O   LEU A   8      -8.509  -1.142   9.910  1.00  0.71           O  \nATOM     61  CG  LEU A   8      -5.732  -4.718   9.848  1.00  0.68           C  \nATOM     62  CD1 LEU A   8      -4.549  -4.721  10.811  1.00  0.64           C  \nATOM     63  CD2 LEU A   8      -6.496  -6.035   9.929  1.00  0.64           C  \nATOM     64  N   PHE A   9     -10.081  -2.534   9.691  1.00  0.75           N  \nATOM     65  CA  PHE A   9     -10.981  -1.969  10.690  1.00  0.75           C  \nATOM     66  C   PHE A   9     -10.540  -2.357  12.096  1.00  0.74           C  \nATOM     67  CB  PHE A   9     -12.420  -2.435  10.444  1.00  0.70           C  \nATOM     68  O   PHE A   9      -9.952  -3.422  12.296  1.00  0.71           O  \nATOM     69  CG  PHE A   9     -12.906  -2.187   9.041  1.00  0.66           C  \nATOM     70  CD1 PHE A   9     -13.247  -0.906   8.625  1.00  0.63           C  \nATOM     71  CD2 PHE A   9     -13.024  -3.236   8.139  1.00  0.65           C  \nATOM     72  CE1 PHE A   9     -13.698  -0.673   7.328  1.00  0.58           C  \nATOM     73  CE2 PHE A   9     -13.474  -3.011   6.841  1.00  0.58           C  \nATOM     74  CZ  PHE A   9     -13.811  -1.730   6.438  1.00  0.56           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.73,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "AVFNYQGLW",
+            "hla_allele": "HLA-A*32:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   ALA A   1      -4.281  -5.919  14.399  1.00  0.66           N  \nATOM      2  CA  ALA A   1      -3.278  -5.513  13.418  1.00  0.66           C  \nATOM      3  C   ALA A   1      -3.933  -5.106  12.101  1.00  0.67           C  \nATOM      4  CB  ALA A   1      -2.276  -6.640  13.184  1.00  0.61           C  \nATOM      5  O   ALA A   1      -4.659  -5.895  11.491  1.00  0.62           O  \nATOM      6  N   VAL A   2      -4.391  -3.720  12.038  1.00  0.68           N  \nATOM      7  CA  VAL A   2      -5.189  -3.400  10.859  1.00  0.67           C  \nATOM      8  C   VAL A   2      -4.396  -3.721   9.595  1.00  0.68           C  \nATOM      9  CB  VAL A   2      -5.623  -1.917  10.854  1.00  0.64           C  \nATOM     10  O   VAL A   2      -3.232  -3.333   9.469  1.00  0.65           O  \nATOM     11  CG1 VAL A   2      -6.388  -1.583   9.574  1.00  0.58           C  \nATOM     12  CG2 VAL A   2      -6.474  -1.606  12.084  1.00  0.59           C  \nATOM     13  N   PHE A   3      -4.583  -4.855   9.067  1.00  0.70           N  \nATOM     14  CA  PHE A   3      -4.044  -5.277   7.780  1.00  0.69           C  \nATOM     15  C   PHE A   3      -4.765  -4.575   6.635  1.00  0.69           C  \nATOM     16  CB  PHE A   3      -4.158  -6.796   7.619  1.00  0.65           C  \nATOM     17  O   PHE A   3      -5.992  -4.640   6.535  1.00  0.65           O  \nATOM     18  CG  PHE A   3      -3.167  -7.380   6.649  1.00  0.62           C  \nATOM     19  CD1 PHE A   3      -1.834  -7.541   7.007  1.00  0.58           C  \nATOM     20  CD2 PHE A   3      -3.569  -7.769   5.378  1.00  0.60           C  \nATOM     21  CE1 PHE A   3      -0.915  -8.081   6.111  1.00  0.57           C  \nATOM     22  CE2 PHE A   3      -2.656  -8.310   4.477  1.00  0.58           C  \nATOM     23  CZ  PHE A   3      -1.329  -8.464   4.845  1.00  0.54           C  \nATOM     24  N   ASN A   4      -4.207  -3.342   6.190  1.00  0.64           N  \nATOM     25  CA  ASN A   4      -4.616  -2.539   5.043  1.00  0.63           C  \nATOM     26  C   ASN A   4      -4.017  -3.069   3.744  1.00  0.63           C  \nATOM     27  CB  ASN A   4      -4.228  -1.073   5.247  1.00  0.60           C  \nATOM     28  O   ASN A   4      -2.807  -3.291   3.659  1.00  0.61           O  \nATOM     29  CG  ASN A   4      -4.370  -0.249   3.983  1.00  0.59           C  \nATOM     30  ND2 ASN A   4      -4.017   1.029   4.065  1.00  0.59           N  \nATOM     31  OD1 ASN A   4      -4.795  -0.756   2.942  1.00  0.58           O  \nATOM     32  N   TYR A   5      -4.810  -3.996   3.006  1.00  0.65           N  \nATOM     33  CA  TYR A   5      -4.640  -4.674   1.726  1.00  0.64           C  \nATOM     34  C   TYR A   5      -4.710  -3.682   0.571  1.00  0.64           C  \nATOM     35  CB  TYR A   5      -5.705  -5.760   1.546  1.00  0.61           C  \nATOM     36  O   TYR A   5      -4.835  -4.079  -0.590  1.00  0.62           O  \nATOM     37  CG  TYR A   5      -5.293  -7.109   2.083  1.00  0.60           C  \nATOM     38  CD1 TYR A   5      -4.619  -8.024   1.278  1.00  0.57           C  \nATOM     39  CD2 TYR A   5      -5.576  -7.471   3.395  1.00  0.58           C  \nATOM     40  CE1 TYR A   5      -4.238  -9.269   1.767  1.00  0.55           C  \nATOM     41  CE2 TYR A   5      -5.201  -8.714   3.895  1.00  0.55           C  \nATOM     42  OH  TYR A   5      -4.158 -10.836   3.565  1.00  0.59           O  \nATOM     43  CZ  TYR A   5      -4.533  -9.604   3.075  1.00  0.54           C  \nATOM     44  N   GLN A   6      -4.320  -2.477   0.753  1.00  0.68           N  \nATOM     45  CA  GLN A   6      -4.428  -1.512  -0.336  1.00  0.67           C  \nATOM     46  C   GLN A   6      -3.067  -1.243  -0.970  1.00  0.68           C  \nATOM     47  CB  GLN A   6      -5.042  -0.204   0.165  1.00  0.64           C  \nATOM     48  O   GLN A   6      -2.159  -0.732  -0.311  1.00  0.65           O  \nATOM     49  CG  GLN A   6      -5.786   0.578  -0.909  1.00  0.62           C  \nATOM     50  CD  GLN A   6      -6.555   1.759  -0.349  1.00  0.61           C  \nATOM     51  NE2 GLN A   6      -7.136   2.562  -1.234  1.00  0.53           N  \nATOM     52  OE1 GLN A   6      -6.628   1.948   0.869  1.00  0.60           O  \nATOM     53  N   GLY A   7      -2.404  -1.788  -1.786  1.00  0.69           N  \nATOM     54  CA  GLY A   7      -1.106  -1.782  -2.442  1.00  0.68           C  \nATOM     55  C   GLY A   7      -1.203  -1.702  -3.954  1.00  0.69           C  \nATOM     56  O   GLY A   7      -0.184  -1.608  -4.642  1.00  0.67           O  \nATOM     57  N   LEU A   8      -2.128  -1.545  -4.724  1.00  0.64           N  \nATOM     58  CA  LEU A   8      -1.859  -1.842  -6.127  1.00  0.62           C  \nATOM     59  C   LEU A   8      -2.850  -1.121  -7.035  1.00  0.63           C  \nATOM     60  CB  LEU A   8      -1.923  -3.351  -6.378  1.00  0.59           C  \nATOM     61  O   LEU A   8      -4.062  -1.200  -6.824  1.00  0.59           O  \nATOM     62  CG  LEU A   8      -0.846  -4.198  -5.698  1.00  0.57           C  \nATOM     63  CD1 LEU A   8      -1.114  -5.681  -5.929  1.00  0.53           C  \nATOM     64  CD2 LEU A   8       0.538  -3.813  -6.208  1.00  0.55           C  \nATOM     65  N   TRP A   9      -2.582   0.085  -7.391  1.00  0.65           N  \nATOM     66  CA  TRP A   9      -2.067   1.005  -8.399  1.00  0.70           C  \nATOM     67  C   TRP A   9      -1.354   2.185  -7.746  1.00  0.64           C  \nATOM     68  CB  TRP A   9      -3.200   1.510  -9.297  1.00  0.60           C  \nATOM     69  O   TRP A   9      -1.733   2.621  -6.657  1.00  0.59           O  \nATOM     70  CG  TRP A   9      -3.056   1.121 -10.737  1.00  0.57           C  \nATOM     71  CD1 TRP A   9      -1.976   0.524 -11.325  1.00  0.50           C  \nATOM     72  CD2 TRP A   9      -4.025   1.307 -11.773  1.00  0.52           C  \nATOM     73  CE2 TRP A   9      -3.465   0.797 -12.966  1.00  0.47           C  \nATOM     74  CE3 TRP A   9      -5.315   1.854 -11.809  1.00  0.58           C  \nATOM     75  NE1 TRP A   9      -2.216   0.326 -12.665  1.00  0.56           N  \nATOM     76  CH2 TRP A   9      -5.412   1.361 -14.189  1.00  0.52           C  \nATOM     77  CZ2 TRP A   9      -4.152   0.820 -14.182  1.00  0.60           C  \nATOM     78  CZ3 TRP A   9      -5.996   1.875 -13.020  1.00  0.46           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.66,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          },
+          {
+            "peptide": "TRYTFGAAL",
+            "hla_allele": "HLA-C*07:01",
+            "pdb": "HEADER                                            18-OCT-22                     \nTITLE     ESMFOLD V1 PREDICTION FOR INPUT\nREMARK   1                                                                      \nREMARK   1 REFERENCE 1                                                          \nREMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,\nREMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,\nREMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,\nREMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,\nREMARK   1  AUTH 5 ALEXANDER RIVES\nREMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN\nREMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL\nREMARK   1  REF                                                                 \nREMARK   1  REFN                                                                \nREMARK   1  PMID                                                                \nREMARK   1  DOI    10.1101/2022.07.20.500902                                    \nREMARK   1                                                                      \nREMARK   1 LICENSE AND DISCLAIMERS                \nREMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER\nREMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.\nREMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.\nREMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT\nREMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.\nATOM      1  N   THR A   1      -7.726 -10.971 -16.056  1.00  0.77           N  \nATOM      2  CA  THR A   1      -6.718 -10.388 -15.177  1.00  0.78           C  \nATOM      3  C   THR A   1      -7.148  -9.001 -14.708  1.00  0.78           C  \nATOM      4  CB  THR A   1      -5.351 -10.294 -15.880  1.00  0.72           C  \nATOM      5  O   THR A   1      -7.475  -8.137 -15.524  1.00  0.68           O  \nATOM      6  CG2 THR A   1      -4.208 -10.426 -14.879  1.00  0.59           C  \nATOM      7  OG1 THR A   1      -5.246 -11.344 -16.850  1.00  0.66           O  \nATOM      8  N   ARG A   2      -7.769  -8.749 -13.317  1.00  0.78           N  \nATOM      9  CA  ARG A   2      -8.513  -7.577 -12.866  1.00  0.76           C  \nATOM     10  C   ARG A   2      -7.707  -6.775 -11.849  1.00  0.75           C  \nATOM     11  CB  ARG A   2      -9.856  -7.992 -12.260  1.00  0.69           C  \nATOM     12  O   ARG A   2      -7.173  -7.337 -10.890  1.00  0.65           O  \nATOM     13  CG  ARG A   2     -11.030  -7.855 -13.216  1.00  0.66           C  \nATOM     14  CD  ARG A   2     -12.355  -8.148 -12.526  1.00  0.66           C  \nATOM     15  NE  ARG A   2     -12.539  -9.579 -12.295  1.00  0.58           N  \nATOM     16  NH1 ARG A   2     -13.421  -9.334 -10.174  1.00  0.46           N  \nATOM     17  NH2 ARG A   2     -13.163 -11.424 -11.080  1.00  0.41           N  \nATOM     18  CZ  ARG A   2     -13.040 -10.109 -11.184  1.00  0.65           C  \nATOM     19  N   TYR A   3      -7.192  -5.625 -12.281  1.00  0.78           N  \nATOM     20  CA  TYR A   3      -6.463  -4.640 -11.489  1.00  0.77           C  \nATOM     21  C   TYR A   3      -7.397  -3.911 -10.531  1.00  0.75           C  \nATOM     22  CB  TYR A   3      -5.759  -3.631 -12.402  1.00  0.73           C  \nATOM     23  O   TYR A   3      -8.367  -3.281 -10.958  1.00  0.68           O  \nATOM     24  CG  TYR A   3      -4.463  -4.140 -12.984  1.00  0.69           C  \nATOM     25  CD1 TYR A   3      -3.291  -4.139 -12.231  1.00  0.66           C  \nATOM     26  CD2 TYR A   3      -4.407  -4.622 -14.287  1.00  0.67           C  \nATOM     27  CE1 TYR A   3      -2.093  -4.605 -12.764  1.00  0.67           C  \nATOM     28  CE2 TYR A   3      -3.216  -5.091 -14.830  1.00  0.64           C  \nATOM     29  OH  TYR A   3      -0.883  -5.542 -14.595  1.00  0.67           O  \nATOM     30  CZ  TYR A   3      -2.066  -5.079 -14.062  1.00  0.67           C  \nATOM     31  N   THR A   4      -7.791  -4.109  -9.308  1.00  0.75           N  \nATOM     32  CA  THR A   4      -8.547  -3.371  -8.303  1.00  0.73           C  \nATOM     33  C   THR A   4      -7.659  -2.348  -7.600  1.00  0.73           C  \nATOM     34  CB  THR A   4      -9.165  -4.321  -7.260  1.00  0.70           C  \nATOM     35  O   THR A   4      -6.667  -2.712  -6.965  1.00  0.67           O  \nATOM     36  CG2 THR A   4     -10.257  -5.186  -7.882  1.00  0.62           C  \nATOM     37  OG1 THR A   4      -8.141  -5.171  -6.731  1.00  0.63           O  \nATOM     38  N   PHE A   5      -7.559  -1.043  -8.244  1.00  0.77           N  \nATOM     39  CA  PHE A   5      -6.943   0.062  -7.519  1.00  0.75           C  \nATOM     40  C   PHE A   5      -7.266  -0.019  -6.032  1.00  0.74           C  \nATOM     41  CB  PHE A   5      -7.411   1.406  -8.086  1.00  0.73           C  \nATOM     42  O   PHE A   5      -8.432   0.069  -5.639  1.00  0.68           O  \nATOM     43  CG  PHE A   5      -7.223   1.535  -9.573  1.00  0.70           C  \nATOM     44  CD1 PHE A   5      -5.950   1.576 -10.127  1.00  0.67           C  \nATOM     45  CD2 PHE A   5      -8.322   1.617 -10.419  1.00  0.68           C  \nATOM     46  CE1 PHE A   5      -5.773   1.696 -11.503  1.00  0.67           C  \nATOM     47  CE2 PHE A   5      -8.154   1.737 -11.795  1.00  0.64           C  \nATOM     48  CZ  PHE A   5      -6.879   1.777 -12.336  1.00  0.69           C  \nATOM     49  N   GLY A   6      -6.277  -0.662  -5.129  1.00  0.76           N  \nATOM     50  CA  GLY A   6      -6.326  -0.707  -3.677  1.00  0.75           C  \nATOM     51  C   GLY A   6      -7.122   0.433  -3.071  1.00  0.75           C  \nATOM     52  O   GLY A   6      -6.848   1.604  -3.345  1.00  0.72           O  \nATOM     53  N   ALA A   7      -8.328   0.211  -2.993  1.00  0.76           N  \nATOM     54  CA  ALA A   7      -9.176   1.190  -2.318  1.00  0.75           C  \nATOM     55  C   ALA A   7      -8.432   1.856  -1.163  1.00  0.76           C  \nATOM     56  CB  ALA A   7     -10.455   0.528  -1.811  1.00  0.73           C  \nATOM     57  O   ALA A   7      -7.896   1.175  -0.287  1.00  0.72           O  \nATOM     58  N   ALA A   8      -7.620   2.940  -1.414  1.00  0.78           N  \nATOM     59  CA  ALA A   8      -7.231   3.849  -0.339  1.00  0.77           C  \nATOM     60  C   ALA A   8      -8.422   4.181   0.556  1.00  0.77           C  \nATOM     61  CB  ALA A   8      -6.629   5.128  -0.915  1.00  0.74           C  \nATOM     62  O   ALA A   8      -9.456   4.652   0.075  1.00  0.74           O  \nATOM     63  N   LEU A   9      -8.664   3.436   1.867  1.00  0.69           N  \nATOM     64  CA  LEU A   9      -9.561   4.262   2.666  1.00  0.71           C  \nATOM     65  C   LEU A   9      -9.202   5.739   2.534  1.00  0.68           C  \nATOM     66  CB  LEU A   9      -9.509   3.842   4.137  1.00  0.62           C  \nATOM     67  O   LEU A   9      -8.023   6.099   2.554  1.00  0.63           O  \nATOM     68  CG  LEU A   9     -10.526   4.504   5.068  1.00  0.58           C  \nATOM     69  CD1 LEU A   9     -11.936   4.025   4.739  1.00  0.50           C  \nATOM     70  CD2 LEU A   9     -10.184   4.216   6.526  1.00  0.53           C  ",
+            "sopep_energy": null,
+            "plddt_score": 0.75,
+            "confidence": "Very low confidence (pLDDT < 50)",
+            "source": "ESMFold (Meta AI)"
+          }
+        ],
+        "skipped_invalid_length": [],
+        "errors": []
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 09 - Molecular Docking": {
+      "result": {
+        "docked_complexes": [
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*24:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 762,
+            "binding_energy_kcal_mol": -9.1,
+            "complex_id": "DOCK_RYTF_HLA-A2402"
+          },
+          {
+            "peptide": "TRYTFGAAL",
+            "hla_allele": "HLA-C*07:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 730,
+            "binding_energy_kcal_mol": -7.5,
+            "complex_id": "DOCK_TRYT_HLA-C0701"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 687,
+            "binding_energy_kcal_mol": -10.35,
+            "complex_id": "DOCK_ETNY_HLA-DPA10103/DPB10201"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "hla_allele": "HLA-A*11:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 677,
+            "binding_energy_kcal_mol": -9.85,
+            "complex_id": "DOCK_ASGH_HLA-A1101"
+          },
+          {
+            "peptide": "STQDLYNNPVTAVFN",
+            "hla_allele": "HLA-DRB3*02:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 639,
+            "binding_energy_kcal_mol": -7.95,
+            "complex_id": "DOCK_STQD_HLA-DRB30202"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 616,
+            "binding_energy_kcal_mol": -6.8,
+            "complex_id": "DOCK_EETN_HLA-DPA10201/DPB10101"
+          },
+          {
+            "peptide": "TQDLYNNPVTAVFNY",
+            "hla_allele": "HLA-DRB3*02:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 612,
+            "binding_energy_kcal_mol": -6.6,
+            "complex_id": "DOCK_TQDL_HLA-DRB30202"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 453,
+            "binding_energy_kcal_mol": -8.65,
+            "complex_id": "DOCK_EETN_HLA-DPA10103/DPB10201"
+          },
+          {
+            "peptide": "NPVTAVFNY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 397,
+            "binding_energy_kcal_mol": -10.85,
+            "complex_id": "DOCK_NPVT_HLA-B3501"
+          },
+          {
+            "peptide": "AVFNYQGLW",
+            "hla_allele": "HLA-A*32:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 378,
+            "binding_energy_kcal_mol": -9.9,
+            "complex_id": "DOCK_AVFN_HLA-A3201"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "hla_allele": "HLA-A*29:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 345,
+            "binding_energy_kcal_mol": -8.25,
+            "complex_id": "DOCK_MVQT_HLA-A2902"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 340,
+            "binding_energy_kcal_mol": -8.0,
+            "complex_id": "DOCK_ETNY_HLA-DPA10201/DPB10101"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*23:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 321,
+            "binding_energy_kcal_mol": -7.05,
+            "complex_id": "DOCK_RYTF_HLA-A2301"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "hla_allele": "HLA-A*26:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 311,
+            "binding_energy_kcal_mol": -6.55,
+            "complex_id": "DOCK_ETNY_HLA-A2601"
+          }
+        ],
+        "total_docked": 15
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 10 - Model Evaluation": {
+      "result": {
+        "evaluated_complexes": [
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*24:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 762,
+            "binding_energy_kcal_mol": -9.1,
+            "complex_id": "DOCK_RYTF_HLA-A2402",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "TQDLYNNPVTAVFNY",
+            "hla_allele": "HLA-DRB3*02:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 612,
+            "binding_energy_kcal_mol": -6.6,
+            "complex_id": "DOCK_TQDL_HLA-DRB30202",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*23:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 321,
+            "binding_energy_kcal_mol": -7.05,
+            "complex_id": "DOCK_RYTF_HLA-A2301",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 616,
+            "binding_energy_kcal_mol": -6.8,
+            "complex_id": "DOCK_EETN_HLA-DPA10201/DPB10101",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 26,
+            "steric_clashes": 2,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 453,
+            "binding_energy_kcal_mol": -8.65,
+            "complex_id": "DOCK_EETN_HLA-DPA10103/DPB10201",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 26,
+            "steric_clashes": 2,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 31,
+            "steric_clashes": 3,
+            "quality_score": 31,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "hla_allele": "HLA-A*29:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 345,
+            "binding_energy_kcal_mol": -8.25,
+            "complex_id": "DOCK_MVQT_HLA-A2902",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 22,
+            "steric_clashes": 2,
+            "quality_score": 29,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 687,
+            "binding_energy_kcal_mol": -10.35,
+            "complex_id": "DOCK_ETNY_HLA-DPA10103/DPB10201",
+            "hydrogen_bonds": 4,
+            "intermolecular_contacts": 25,
+            "steric_clashes": 1,
+            "quality_score": 27,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "STQDLYNNPVTAVFN",
+            "hla_allele": "HLA-DRB3*02:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 639,
+            "binding_energy_kcal_mol": -7.95,
+            "complex_id": "DOCK_STQD_HLA-DRB30202",
+            "hydrogen_bonds": 8,
+            "intermolecular_contacts": 13,
+            "steric_clashes": 1,
+            "quality_score": 27,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 340,
+            "binding_energy_kcal_mol": -8.0,
+            "complex_id": "DOCK_ETNY_HLA-DPA10201/DPB10101",
+            "hydrogen_bonds": 4,
+            "intermolecular_contacts": 25,
+            "steric_clashes": 1,
+            "quality_score": 27,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "hla_allele": "HLA-A*26:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 311,
+            "binding_energy_kcal_mol": -6.55,
+            "complex_id": "DOCK_ETNY_HLA-A2601",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 23,
+            "steric_clashes": 3,
+            "quality_score": 23,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "hla_allele": "HLA-A*11:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 677,
+            "binding_energy_kcal_mol": -9.85,
+            "complex_id": "DOCK_ASGH_HLA-A1101",
+            "hydrogen_bonds": 5,
+            "intermolecular_contacts": 26,
+            "steric_clashes": 2,
+            "quality_score": 21,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "NPVTAVFNY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 397,
+            "binding_energy_kcal_mol": -10.85,
+            "complex_id": "DOCK_NPVT_HLA-B3501",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 19,
+            "steric_clashes": 3,
+            "quality_score": 19,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "AVFNYQGLW",
+            "hla_allele": "HLA-A*32:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 378,
+            "binding_energy_kcal_mol": -9.9,
+            "complex_id": "DOCK_AVFN_HLA-A3201",
+            "hydrogen_bonds": 4,
+            "intermolecular_contacts": 13,
+            "steric_clashes": 1,
+            "quality_score": 15,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "TRYTFGAAL",
+            "hla_allele": "HLA-C*07:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 730,
+            "binding_energy_kcal_mol": -7.5,
+            "complex_id": "DOCK_TRYT_HLA-C0701",
+            "hydrogen_bonds": 5,
+            "intermolecular_contacts": 18,
+            "steric_clashes": 2,
+            "quality_score": 13,
+            "evaluation": "Poor"
+          }
+        ],
+        "best_models": [
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*24:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 762,
+            "binding_energy_kcal_mol": -9.1,
+            "complex_id": "DOCK_RYTF_HLA-A2402",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "TQDLYNNPVTAVFNY",
+            "hla_allele": "HLA-DRB3*02:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 612,
+            "binding_energy_kcal_mol": -6.6,
+            "complex_id": "DOCK_TQDL_HLA-DRB30202",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "hla_allele": "HLA-A*23:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 321,
+            "binding_energy_kcal_mol": -7.05,
+            "complex_id": "DOCK_RYTF_HLA-A2301",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 16,
+            "steric_clashes": 0,
+            "quality_score": 37,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 616,
+            "binding_energy_kcal_mol": -6.8,
+            "complex_id": "DOCK_EETN_HLA-DPA10201/DPB10101",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 26,
+            "steric_clashes": 2,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 453,
+            "binding_energy_kcal_mol": -8.65,
+            "complex_id": "DOCK_EETN_HLA-DPA10103/DPB10201",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 26,
+            "steric_clashes": 2,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 31,
+            "steric_clashes": 3,
+            "quality_score": 31,
+            "evaluation": "Good"
+          }
+        ],
+        "best_model_count": 6
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 11 - Construct Design": {
+      "result": {
+        "adjuvant_n_terminal": "APPHALS",
+        "adjuvant_c_terminal": "KDPNAPKRPPSAFFLFCSE",
+        "padre_sequence": "AAATLWKAAKFVA",
+        "mhc2_epitopes_used": [
+          "TQDLYNNPVTAVFNY",
+          "ETNYKAVSYHASGHS"
+        ],
+        "mhc1_epitopes_used": [
+          "RYTFGAALF",
+          "ETNYKAVSY",
+          "HASGHSVAY",
+          "ASGHSVAYK"
+        ],
+        "bcell_epitopes_used": [],
+        "final_construct_sequence": "APPHALSEAAAKAAATLWKAAKFVATQDLYNNPVTAVFNYGPGPGETNYKAVSYHASGHSRYTFGAALFAAYETNYKAVSYAAYHASGHSVAYAAYASGHSVAYKEAAAKKDPNAPKRPPSAFFLFCSE",
+        "construct_length_aa": 129
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 12 - Codon Optimization": {
+      "result": {
+        "expression_host": "E. coli",
+        "optimized_dna_sequence": "GCGCCGCCGCATGCGCTGAGCGAAGCGGCGGCGAAAGCGGCGGCGACCCTGTGGAAAGCGGCGAAATTTGTGGCGACCCAGGATCTGTATAACAACCCGGTGACCGCGGTGTTTAACTATGGCCCGGGCCCGGGCGAAACCAACTATAAAGCGGTGAGCTATCATGCGAGCGGCCATAGCCGCTATACCTTTGGCGCGGCGCTGTTTGCGGCGTATGAAACCAACTATAAAGCGGTGAGCTATGCGGCGTATCATGCGAGCGGCCATAGCGTGGCGTATGCGGCGTATGCGAGCGGCCATAGCGTGGCGTATAAAGAAGCGGCGGCGAAAAAAGATCCGAACGCGCCGAAACGCCCGCCGAGCGCGTTTTTTCTGTTTTGCAGCGAA",
+        "dna_length_bp": 387,
+        "cai_score": 0.9066,
+        "gc_content_pct": 60.21
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 13 - In-Silico Cloning": {
+      "result": {
+        "vector": "pShuttle-CMV",
+        "insert_length_bp": 387,
+        "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)",
+        "restriction_site_conflicts": [],
+        "cloning_compatible": true,
+        "cloning_status": "Success",
+        "cloning_map": {
+          "vector": "pShuttle-CMV",
+          "insert_size_bp": 387,
+          "cloning_sites": {
+            "upstream": "NotI (5')",
+            "downstream": "XhoI (3')"
+          },
+          "promoter": "CMV immediate-early",
+          "terminator": "BGH poly-A signal",
+          "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)"
+        }
+      },
+      "passed": true,
+      "error": null
+    }
+  },
+  "flags": [],
+  "overall_mev_candidacy": "STRONG MEV CANDIDATE"
+}

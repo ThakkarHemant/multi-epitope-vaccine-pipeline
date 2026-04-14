@@ -1,0 +1,772 @@
+{
+  "job_id": "72834b1b-8e54-49ff-8cea-5161b070af9f",
+  "uniprot_id": "P56856",
+  "status": "running",
+  "created_at": "2026-03-05T19:17:06.660702",
+  "completed_at": null,
+  "stages": {
+    "Step 01 - Sequence Retrieval": {
+      "result": {
+        "uniprot_id": "P56856",
+        "isoform": false,
+        "sequence": "MSTTTCQVVAFLLSILGLAGCIAATGMDMWSTQDLYDNPVTSVFQYEGLWRSCVRQSSGFTECRPYFTILGLPAMLQAVRALMIVGIVLGAIGLLVSIFALKCIRIGSMEDSAKANMTLTSGIMFIVSGLCAIAGVSVFANMLVTNFWMSTANMYTGMGGMVQTVQTRYTFGAALFVGWVAGGLTLIGGVMMCIACRGLAPEETNYKAVSYHASGHSVAYKPGGFKASTGFGSNTKNKKIYDGGARTEDEVQSYPSKHDYV",
+        "length": 261,
+        "protein_name": "Claudin-18",
+        "organism": "Homo sapiens"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 02 - Antigenicity Screening": {
+      "result": {
+        "antigenicity_score": 0.7447,
+        "classification": "Antigen",
+        "gate_passed": true,
+        "tool": "Kolaskar & Tongaonkar (1990) [fallback]",
+        "threshold": 0.4
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 03 - Physicochemical Analysis": {
+      "result": {
+        "molecular_weight": 27856.19,
+        "theoretical_pi": 8.39,
+        "instability_index": 35.56,
+        "aliphatic_index": 87.82,
+        "gravy": 0.422
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 04 - Epitope Prediction": {
+      "result": {
+        "bcell_epitopes": [],
+        "bcell_count": 0,
+        "mhc1_epitopes": [
+          {
+            "peptide": "RTEDEVQSY",
+            "start": 246,
+            "end": 254,
+            "hla_allele": "HLA-A*01:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*24:02",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "start": 203,
+            "end": 211,
+            "hla_allele": "HLA-A*26:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "start": 212,
+            "end": 220,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "NPVTSVFQY",
+            "start": 38,
+            "end": 46,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ASGHSVAYK",
+            "start": 213,
+            "end": 221,
+            "hla_allele": "HLA-A*11:01",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "start": 161,
+            "end": 169,
+            "hla_allele": "HLA-A*29:02",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RYTFGAALF",
+            "start": 168,
+            "end": 176,
+            "hla_allele": "HLA-A*23:01",
+            "percentile_rank": 0.03,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "FTILGLPAM",
+            "start": 67,
+            "end": 75,
+            "hla_allele": "HLA-C*03:04",
+            "percentile_rank": 0.03,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RPYFTILGL",
+            "start": 64,
+            "end": 72,
+            "hla_allele": "HLA-B*07:02",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          }
+        ],
+        "mhc1_count": 10,
+        "mhc2_epitopes": [
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "start": 222,
+            "end": 236,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.06,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "start": 221,
+            "end": 235,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.08,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "start": 220,
+            "end": 234,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.3,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.33,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.42,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.44,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "start": 143,
+            "end": 157,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.45,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "EETNYKAVSYHASGH",
+            "start": 202,
+            "end": 216,
+            "hla_allele": "HLA-DPA1*02:01/DPB1*01:01",
+            "percentile_rank": 0.5,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "ETNYKAVSYHASGHS",
+            "start": 203,
+            "end": 217,
+            "hla_allele": "HLA-DPA1*03:01/DPB1*04:02",
+            "percentile_rank": 0.54,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "start": 201,
+            "end": 215,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.64,
+            "binding_strength": "Strong"
+          }
+        ],
+        "mhc2_count": 10,
+        "tool": "IEDB (Bepipred-2.0 / NetMHCpan-4.1 / NetMHCIIpan-4.0)"
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 05 - Safety Filtering": {
+      "result": {
+        "safe_bcell_epitopes": [],
+        "safe_bcell_count": 0,
+        "safe_mhc1_epitopes": [
+          {
+            "peptide": "ETNYKAVSY",
+            "start": 203,
+            "end": 211,
+            "hla_allele": "HLA-A*26:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "start": 212,
+            "end": 220,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "NPVTSVFQY",
+            "start": 38,
+            "end": 46,
+            "hla_allele": "HLA-B*35:01",
+            "percentile_rank": 0.01,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "start": 161,
+            "end": 169,
+            "hla_allele": "HLA-A*29:02",
+            "percentile_rank": 0.02,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "RPYFTILGL",
+            "start": 64,
+            "end": 72,
+            "hla_allele": "HLA-B*07:02",
+            "percentile_rank": 0.04,
+            "binding_strength": "Strong"
+          }
+        ],
+        "safe_mhc1_count": 5,
+        "safe_mhc2_epitopes": [
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "start": 222,
+            "end": 236,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.06,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "start": 221,
+            "end": 235,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.08,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "start": 220,
+            "end": 234,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.3,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "start": 143,
+            "end": 157,
+            "hla_allele": "HLA-DRB1*09:01",
+            "percentile_rank": 0.45,
+            "binding_strength": "Strong"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "start": 201,
+            "end": 215,
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "percentile_rank": 0.64,
+            "binding_strength": "Strong"
+          }
+        ],
+        "safe_mhc2_count": 5,
+        "bcell_removed": 0,
+        "mhc1_removed": 5,
+        "mhc2_removed": 5,
+        "filtering_criteria": [
+          "toxic",
+          "allergenic",
+          "non-antigenic"
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 06 - Population Coverage": {
+      "result": {
+        "bcell_peptides_used": [],
+        "mhc1_alleles_used": [
+          "HLA-A*26:01",
+          "HLA-B*35:01",
+          "HLA-A*29:02",
+          "HLA-B*07:02"
+        ],
+        "mhc2_alleles_used": [
+          "HLA-DRB1*09:01",
+          "HLA-DPA1*01:03/DPB1*02:01"
+        ],
+        "bcell_population_coverage": {
+          "North America": 0.97,
+          "Europe": 0.95,
+          "East Asia": 0.9,
+          "South Asia": 0.93,
+          "Africa": 0.86,
+          "World": 0.92
+        },
+        "class1_population_coverage": {
+          "North America": 0.94,
+          "Europe": 0.92,
+          "East Asia": 0.87,
+          "South Asia": 0.9,
+          "Africa": 0.83,
+          "World": 0.89
+        },
+        "class2_population_coverage": {
+          "North America": 0.9,
+          "Europe": 0.88,
+          "East Asia": 0.83,
+          "South Asia": 0.86,
+          "Africa": 0.79,
+          "World": 0.85
+        },
+        "world_bcell_coverage_pct": 92.0,
+        "world_class1_coverage_pct": 89.0,
+        "world_class2_coverage_pct": 85.0
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 07 - IFN-Gamma Prediction": {
+      "result": {
+        "approach": "Motif and SVM hybrid",
+        "model": "IFN-gamma versus Non IFN-gamma",
+        "ifn_gamma_epitopes": [],
+        "ifn_gamma_count": 0,
+        "errors": [
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "error": "All connection attempts failed"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "error": "All connection attempts failed"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "error": "All connection attempts failed"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "error": "All connection attempts failed"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "error": "All connection attempts failed"
+          }
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 08 - PEP-FOLD Modeling": {
+      "result": {
+        "peptides_submitted": 5,
+        "successful_models": 0,
+        "pepfold_models": [],
+        "skipped_invalid_length": [],
+        "errors": [
+          {
+            "peptide": "ETNYKAVSY",
+            "error": "Client error '404 Not Found' for url 'https://bioserv.rpbs.univ-paris-diderot.fr/mobyle/rest/job'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "error": "Client error '404 Not Found' for url 'https://bioserv.rpbs.univ-paris-diderot.fr/mobyle/rest/job'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          },
+          {
+            "peptide": "NPVTSVFQY",
+            "error": "Client error '404 Not Found' for url 'https://bioserv.rpbs.univ-paris-diderot.fr/mobyle/rest/job'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "error": "Client error '404 Not Found' for url 'https://bioserv.rpbs.univ-paris-diderot.fr/mobyle/rest/job'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          },
+          {
+            "peptide": "RPYFTILGL",
+            "error": "Client error '404 Not Found' for url 'https://bioserv.rpbs.univ-paris-diderot.fr/mobyle/rest/job'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+          }
+        ]
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 09 - Molecular Docking": {
+      "result": {
+        "docked_complexes": [
+          {
+            "peptide": "NPVTSVFQY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 767,
+            "binding_energy_kcal_mol": -9.35,
+            "complex_id": "DOCK_NPVT_HLA-B3501"
+          },
+          {
+            "peptide": "RPYFTILGL",
+            "hla_allele": "HLA-B*07:02",
+            "hla_structure": "PDB:1BBB",
+            "docking_score": 707,
+            "binding_energy_kcal_mol": -6.35,
+            "complex_id": "DOCK_RPYF_HLA-B0702"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 599,
+            "binding_energy_kcal_mol": -10.95,
+            "complex_id": "DOCK_YKPG_HLA-DRB10901"
+          },
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 557,
+            "binding_energy_kcal_mol": -8.85,
+            "complex_id": "DOCK_PGGF_HLA-DRB10901"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 454,
+            "binding_energy_kcal_mol": -8.7,
+            "complex_id": "DOCK_KPGG_HLA-DRB10901"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 446,
+            "binding_energy_kcal_mol": -8.3,
+            "complex_id": "DOCK_PEET_HLA-DPA10103/DPB10201"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 420,
+            "binding_energy_kcal_mol": -7.0,
+            "complex_id": "DOCK_LVTN_HLA-DRB10901"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "hla_allele": "HLA-A*29:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 345,
+            "binding_energy_kcal_mol": -8.25,
+            "complex_id": "DOCK_MVQT_HLA-A2902"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "hla_allele": "HLA-A*26:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 311,
+            "binding_energy_kcal_mol": -6.55,
+            "complex_id": "DOCK_ETNY_HLA-A2601"
+          }
+        ],
+        "total_docked": 10
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 10 - Model Evaluation": {
+      "result": {
+        "evaluated_complexes": [
+          {
+            "peptide": "NPVTSVFQY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 767,
+            "binding_energy_kcal_mol": -9.35,
+            "complex_id": "DOCK_NPVT_HLA-B3501",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 20,
+            "steric_clashes": 0,
+            "quality_score": 41,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 599,
+            "binding_energy_kcal_mol": -10.95,
+            "complex_id": "DOCK_YKPG_HLA-DRB10901",
+            "hydrogen_bonds": 8,
+            "intermolecular_contacts": 25,
+            "steric_clashes": 1,
+            "quality_score": 39,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 446,
+            "binding_energy_kcal_mol": -8.3,
+            "complex_id": "DOCK_PEET_HLA-DPA10103/DPB10201",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 12,
+            "steric_clashes": 0,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 31,
+            "steric_clashes": 3,
+            "quality_score": 31,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "KPGGFKASTGFGSNT",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 454,
+            "binding_energy_kcal_mol": -8.7,
+            "complex_id": "DOCK_KPGG_HLA-DRB10901",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 22,
+            "steric_clashes": 2,
+            "quality_score": 29,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "MVQTVQTRY",
+            "hla_allele": "HLA-A*29:02",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 345,
+            "binding_energy_kcal_mol": -8.25,
+            "complex_id": "DOCK_MVQT_HLA-A2902",
+            "hydrogen_bonds": 9,
+            "intermolecular_contacts": 22,
+            "steric_clashes": 2,
+            "quality_score": 29,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "ETNYKAVSY",
+            "hla_allele": "HLA-A*26:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 311,
+            "binding_energy_kcal_mol": -6.55,
+            "complex_id": "DOCK_ETNY_HLA-A2601",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 23,
+            "steric_clashes": 3,
+            "quality_score": 23,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "PGGFKASTGFGSNTK",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 557,
+            "binding_energy_kcal_mol": -8.85,
+            "complex_id": "DOCK_PGGF_HLA-DRB10901",
+            "hydrogen_bonds": 5,
+            "intermolecular_contacts": 18,
+            "steric_clashes": 2,
+            "quality_score": 13,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "LVTNFWMSTANMYTG",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 420,
+            "binding_energy_kcal_mol": -7.0,
+            "complex_id": "DOCK_LVTN_HLA-DRB10901",
+            "hydrogen_bonds": 6,
+            "intermolecular_contacts": 19,
+            "steric_clashes": 3,
+            "quality_score": 7,
+            "evaluation": "Poor"
+          },
+          {
+            "peptide": "RPYFTILGL",
+            "hla_allele": "HLA-B*07:02",
+            "hla_structure": "PDB:1BBB",
+            "docking_score": 707,
+            "binding_energy_kcal_mol": -6.35,
+            "complex_id": "DOCK_RPYF_HLA-B0702",
+            "hydrogen_bonds": 6,
+            "intermolecular_contacts": 15,
+            "steric_clashes": 3,
+            "quality_score": 3,
+            "evaluation": "Poor"
+          }
+        ],
+        "best_models": [
+          {
+            "peptide": "NPVTSVFQY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 767,
+            "binding_energy_kcal_mol": -9.35,
+            "complex_id": "DOCK_NPVT_HLA-B3501",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 20,
+            "steric_clashes": 0,
+            "quality_score": 41,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "YKPGGFKASTGFGSN",
+            "hla_allele": "HLA-DRB1*09:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 599,
+            "binding_energy_kcal_mol": -10.95,
+            "complex_id": "DOCK_YKPG_HLA-DRB10901",
+            "hydrogen_bonds": 8,
+            "intermolecular_contacts": 25,
+            "steric_clashes": 1,
+            "quality_score": 39,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "PEETNYKAVSYHASG",
+            "hla_allele": "HLA-DPA1*01:03/DPB1*02:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 446,
+            "binding_energy_kcal_mol": -8.3,
+            "complex_id": "DOCK_PEET_HLA-DPA10103/DPB10201",
+            "hydrogen_bonds": 7,
+            "intermolecular_contacts": 12,
+            "steric_clashes": 0,
+            "quality_score": 33,
+            "evaluation": "Good"
+          },
+          {
+            "peptide": "HASGHSVAY",
+            "hla_allele": "HLA-B*35:01",
+            "hla_structure": "PDB:MODELLED",
+            "docking_score": 496,
+            "binding_energy_kcal_mol": -10.8,
+            "complex_id": "DOCK_HASG_HLA-B3501",
+            "hydrogen_bonds": 10,
+            "intermolecular_contacts": 31,
+            "steric_clashes": 3,
+            "quality_score": 31,
+            "evaluation": "Good"
+          }
+        ],
+        "best_model_count": 4
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 11 - Construct Design": {
+      "result": {
+        "adjuvant_n_terminal": "APPHALS",
+        "adjuvant_c_terminal": "KDPNAPKRPPSAFFLFCSE",
+        "padre_sequence": "AAATLWKAAKFVA",
+        "mhc2_epitopes_used": [
+          "PGGFKASTGFGSNTK",
+          "KPGGFKASTGFGSNT",
+          "YKPGGFKASTGFGSN",
+          "LVTNFWMSTANMYTG",
+          "PEETNYKAVSYHASG"
+        ],
+        "mhc1_epitopes_used": [
+          "ETNYKAVSY",
+          "HASGHSVAY",
+          "NPVTSVFQY",
+          "MVQTVQTRY",
+          "RPYFTILGL"
+        ],
+        "bcell_epitopes_used": [],
+        "final_construct_sequence": "APPHALSEAAAKPGGFKASTGFGSNTKGPGPGKPGGFKASTGFGSNTGPGPGYKPGGFKASTGFGSNGPGPGLVTNFWMSTANMYTGGPGPGPEETNYKAVSYHASGGPGPGAAATLWKAAKFVAAAYETNYKAVSYAAYHASGHSVAYAAYNPVTSVFQYAAYMVQTVQTRYAAYRPYFTILGLEAAAKKDPNAPKRPPSAFFLFCSE",
+        "construct_length_aa": 209
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 12 - Codon Optimization": {
+      "result": {
+        "expression_host": "E. coli",
+        "optimized_dna_sequence": "GCGCCGCCGCATGCGCTGAGCGAAGCGGCGGCGAAACCGGGCGGCTTTAAAGCGAGCACCGGCTTTGGCAGCAACACCAAAGGCCCGGGCCCGGGCAAACCGGGCGGCTTTAAAGCGAGCACCGGCTTTGGCAGCAACACCGGCCCGGGCCCGGGCTATAAACCGGGCGGCTTTAAAGCGAGCACCGGCTTTGGCAGCAACGGCCCGGGCCCGGGCCTGGTGACCAACTTTTGGATGAGCACCGCGAACATGTATACCGGCGGCCCGGGCCCGGGCCCGGAAGAAACCAACTATAAAGCGGTGAGCTATCATGCGAGCGGCGGCCCGGGCCCGGGCGCGGCGGCGACCCTGTGGAAAGCGGCGAAATTTGTGGCGGCGGCGTATGAAACCAACTATAAAGCGGTGAGCTATGCGGCGTATCATGCGAGCGGCCATAGCGTGGCGTATGCGGCGTATAACCCGGTGACCAGCGTGTTTCAGTATGCGGCGTATATGGTGCAGACCGTGCAGACCCGCTATGCGGCGTATCGCCCGTATTTTACCATTCTGGGCCTGGAAGCGGCGGCGAAAAAAGATCCGAACGCGCCGAAACGCCCGCCGAGCGCGTTTTTTCTGTTTTGCAGCGAA",
+        "dna_length_bp": 627,
+        "cai_score": 0.9286,
+        "gc_content_pct": 63.8
+      },
+      "passed": true,
+      "error": null
+    },
+    "Step 13 - In-Silico Cloning": {
+      "result": {
+        "vector": "pShuttle-CMV",
+        "insert_length_bp": 627,
+        "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)",
+        "restriction_site_conflicts": [],
+        "cloning_compatible": true,
+        "cloning_status": "Success",
+        "cloning_map": {
+          "vector": "pShuttle-CMV",
+          "insert_size_bp": 627,
+          "cloning_sites": {
+            "upstream": "NotI (5')",
+            "downstream": "XhoI (3')"
+          },
+          "promoter": "CMV immediate-early",
+          "terminator": "BGH poly-A signal",
+          "orientation": "Forward (5' CMV promoter \u2192 Insert \u2192 3' BGH polyA)"
+        }
+      },
+      "passed": true,
+      "error": null
+    }
+  },
+  "flags": [],
+  "overall_mev_candidacy": "STRONG MEV CANDIDATE"
+}
