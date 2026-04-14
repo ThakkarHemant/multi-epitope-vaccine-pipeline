@@ -1,10 +1,9 @@
-# MEV Design Pipeline — Architecture & Documentation
+# MEV Pipeline — Architecture & Documentation
 
 ## Overview
 
-The **Multi-Epitope Vaccine (MEV) Design Pipeline** is a backend system that automates the computational design of synthetic multi-epitope vaccines from a single protein target. It implements 12 sequential bioinformatics steps — from sequence retrieval to in-silico cloning — each as an independent service module that exchanges structured JSON data.
+The **Multi-Epitope Vaccine (MEV) Pipeline** is a backend system that automates the computational design of synthetic multi-epitope vaccines from a single protein target. It implements 12 sequential bioinformatics steps — from sequence retrieval to in-silico cloning — each as an independent service module that exchanges structured JSON data.
 
----
 
 ## System Architecture
 
@@ -78,7 +77,6 @@ erDiagram
     PIPELINE_JOBS ||--o{ STAGE_RESULTS : "has"
 ```
 
----
 
 ## File-by-File Reference
 
